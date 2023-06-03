@@ -16,6 +16,11 @@ Please be very aware that this project is not directly supported by [monome](htt
 __shieldXL 20230423__
 This rework/remix is based on the 210330 version of the norns shield. It uses the same disk image as the 210330 shield.
 
+See https://monome.org/docs/norns/help/#fresh-shield for installation instructions.  
+
+See https://github.com/monome/norns-image/releases/tag/220306 for disk images (pre-211028 shield for cs4270 codec).  
+specifically:  * https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi3-cs4270.tgz
+* https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi4-cs4270.tgz
 
 ## troubleshooting
 
@@ -26,8 +31,8 @@ This rework/remix is based on the 210330 version of the norns shield. It uses th
 ## notes
 
 - the shield does not have a dedicated headphone output, but headphones work fine on the main outputs (use the left output jack). the headphone gain level within the norns menu does nothing in this case.
-- the battery indication will not function, as there's no battery.
+- the battery indication will not function - there is no battery.
 
 ## License
 
-GNU GENERAL PUBLIC LICENSE
+[GNU GENERAL PUBLIC LICENSE](LICENSE.txt)
