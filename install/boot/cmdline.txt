@@ -1,0 +1,1 @@
+console=115200 consoleblank=0 fbcon=map:1 root=/dev/mmcblk0p2 rootfstype=ext4 rootwait console=tty1 consoleblank=0 fsck.repair=yes quiet

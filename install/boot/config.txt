@@ -1,0 +1,41 @@
+# How much memory in MB to assign to the GPU on Pi models having
+# 256, 512 or 1024 MB total memory
+gpu_mem_256=100
+gpu_mem_512=100
+gpu_mem_1024=100
+
+# Display
+# Connected using SPI
+dtparam=spi=on
+dtoverlay=ssd1322-spi
+dtparam=rotate=180
+
+# Soundcard
+# Connected using I2S
+# CS4270 codec used by soundcard connected using I2C
+dtparam=i2s=on
+dtparam=i2c=on
+dtoverlay=monome-snd-4270
+
+# Buttons and encoders
+dtoverlay=norns-buttons-encoders
+dtparam=e1_pin_a=4
+dtparam=e1_pin_b=27
+dtparam=e2_pin_a=12
+dtparam=e2_pin_b=25
+dtparam=e3_pin_a=24
+dtparam=e3_pin_b=23
+dtparam=b1_pin=22
+dtparam=b2_pin=26
+dtparam=b3_pin=13
+
+#[rpi4]
+#enable_uart=1
+#uart_2ndstage=1
+#arm_boost=1
+enable_uart=1
+dtoverlay=miniuart-bt
+dtoverlay=uart0
+dtoverlay=midi-uart0
+
+kernel=kernel-5.10.92-18-v7l-g458e2253667a.img

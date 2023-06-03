@@ -1,0 +1,19 @@
+###
+### Standard Rules
+###
+# .hw <---> .app
+  # Interconnect all hardware and application ports.
+  # For simple set ups, this is often all you need.
+  # Comment this out if you need to be more explicit about what is connected
+  # to what.
+
+RtMidiIn Client <-x- *
+RtMidiOut Client -x-> *
+  # Don't auto connect anything to these ports. They are generic client
+  # names used by various applications, and could mean anything.
+
+ttymidi <--> Client
+
+# Do Not Edit Below Here
+###WEBEDIT###
+

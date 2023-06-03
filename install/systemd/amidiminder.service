@@ -1,0 +1,11 @@
+[Unit]
+Description=ALSA MIDI minder daemon
+After=sound.target
+
+[Service]
+ExecStart=/usr/bin/amidiminder -f /home/we/shieldXL/amidiminder.rules
+EnvironmentFile=/etc/environment
+
+[Install]
+WantedBy=multi-user.target
+
