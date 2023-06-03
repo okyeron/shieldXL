@@ -16,6 +16,8 @@ Please be very aware that this project is not directly supported by [monome](htt
 __shieldXL 20230423__
 This rework/remix is based on the 210330 version of the norns shield. It uses the same disk image as the 210330 shield with the cs4270 codec.
 
+## installation
+
 See https://monome.org/docs/norns/help/#fresh-shield for installation instructions.  
 
 See [norns releases on github](https://github.com/monome/norns-image/releases/tag/220306) for disk images (pre-211028 shield for cs4270 codec).  
