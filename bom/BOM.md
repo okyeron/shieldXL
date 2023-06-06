@@ -1,5 +1,7 @@
 # shieldXL BOM for pre-assembled boards
 
+[Mouser Cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=c161b7b4d2) (Does not include switches)  
+
 | Part | QTY | MFG | Part Num | Octopart | Desc |
 |--------|:--:|-----|-----|-----|-----|
 |1528-1785-ND|1|Adafruit Industries|2222|https://octopart.com/2222-adafruit+industries-53880117?r=sp|GPIO Header for Raspberry Pi A+/B+ - Tall 2x20 Female Header|
@@ -15,8 +17,9 @@
  	 	 	
 ### Mounting Hardware/Stanoffs
 
-* 4x 11mm for pi 
-* 4x 15mm - bottom side 
+* 4x 11mm F/F for pi 
+* 2x 16mm F/F - bottom side 
+* 3x 5mm M/F - top side
 
 Top side spacing will depend on your switch choice.  
 
