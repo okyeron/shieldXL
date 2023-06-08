@@ -32,15 +32,15 @@ The PCB is configured to use either Cherry MX or Kailh Choc (V1) switches. If yo
 
 ### Kailh Choc
 
-Kailh Low Profile Choc Switches
+Kailh Low Profile Choc Switches  
 
 Some sources for keycaps and switches:  
 US [MKUltra](https://mkultra.click/choc-switches)  
 EU [Keycapsss](https://keycapsss.com/keyboard-parts/keycaps/182/mbk-dye-color-choc-low-profile-keycap)  
-AU [keebd](https://keebd.com/products/mbk-low-profile-keycaps)
+AU [keebd](https://keebd.com/products/mbk-low-profile-keycaps)  
 
 Also from Adafruit:  
-[https://www.adafruit.com/product/5113 ](https://www.adafruit.com/product/5113 ) 
+[https://www.adafruit.com/product/5113 ](https://www.adafruit.com/product/5113)   
 [https://octopart.com/5113-adafruit+industries-119996176?r=sp](https://octopart.com/5113-adafruit+industries-119996176?r=sp)  
 
 | Color	| Type	| Actuation Force	| Actuation Travel	| Total Travel |
