@@ -36,8 +36,8 @@ Kailh Low Profile Choc Switches
 
 Some sources for keycaps and switches:  
 US [MKUltra](https://mkultra.click/choc-switches)  
-EU [Keycapsss](https://keycapsss.com/keyboard-parts/keycaps/182/mbk-dye-color-choc-low-profile-keycap)  
-AU [keebd](https://keebd.com/products/mbk-low-profile-keycaps)  
+EU [Keycapsss](https://keycapsss.com/switchestester/switches/65/kailh-low-profile-choc-switches-v1)  
+AU [keebd](https://keebd.com/collections/choc-switches)  
 
 Also from Adafruit:  
 [https://www.adafruit.com/product/5113 ](https://www.adafruit.com/product/5113)   
@@ -82,7 +82,9 @@ NOTE - Chocs have specific keycaps and are not compatible with MX switches.
 #### Chocs keycaps
 
 MBK profile caps are great:  
-See https://mkultra.click/search.php?search_query=mbk&section=product
+US [MKUltra](https://mkultra.click/search.php?search_query=mbk&section=product)  
+EU [Keycapsss](https://keycapsss.com/keyboard-parts/keycaps/182/mbk-dye-color-choc-low-profile-keycap)  
+AU [keebd](https://keebd.com/products/mbk-low-profile-keycaps)  
 
 
 #### MX keycaps
