@@ -25,6 +25,29 @@ Specifically:
 * [norns220306-shield-pi3](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi3-cs4270.tgz)
 * [norns220306-shield-pi4](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi4-cs4270.tgz)
 
+## enabling hardware midi
+
+```
+cd ~
+git clone https://github.com/okyeron/shieldXL.git
+cd ~/shieldXL 
+./install-midi.sh
+```
+Then Edit `/boot/config.txt`  and add the following
+```
+enable_uart=1
+dtoverlay=miniuart-bt
+dtoverlay=uart0
+dtoverlay=midi-uart0
+```
+edit `/boot/cmdline.txt` 
+and remove `serial0`    
+(so change `console=serial0,115200` to `console=115200`)  
+and `sudo reboot`  
+
+This will internally connect the shieldXL hardware TRS MIDI jacks to the "Virtual MIDI" port which is accessible from the norns MIDI menu.  
+
+
 ## troubleshooting
 
 - most soldering problems can be solved simply by reheating solder joints. bad solders can result in various problems: screen doesn't turn on, knobs/keys don't work.
