@@ -12,7 +12,7 @@ RtMidiOut Client -x-> *
   # Don't auto connect anything to these ports. They are generic client
   # names used by various applications, and could mean anything.
 
-ttymidi <--> Client
+shieldXL <--> Client
 
 # Do Not Edit Below Here
 ###WEBEDIT###
