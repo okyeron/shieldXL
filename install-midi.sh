@@ -3,7 +3,6 @@
 # be sure you already have the shieldXL repo
 # git clone https://github.com/okyeron/shieldXL.git
 
-
 cd ~/shieldXL
 git clone https://github.com/okyeron/ttymidi.git
 cd ttymidi
