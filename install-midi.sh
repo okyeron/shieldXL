@@ -6,7 +6,6 @@ git clone https://github.com/okyeron/ttymidi.git
 cd ttymidi
 make
 sudo make install
-cd ../
 
 sudo chmod 644 install/systemd/*
 sudo cp install/systemd/ttymidi* /etc/systemd/system
