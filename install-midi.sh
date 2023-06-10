@@ -1,14 +1,18 @@
 #!/usr/bin/env bash
 
+# be sure you already have the shieldXL repo
+# git clone https://github.com/okyeron/shieldXL.git
+
 
 cd ~/shieldXL
 git clone https://github.com/okyeron/ttymidi.git
 cd ttymidi
 make
 sudo make install
+cd ../
 
-sudo chmod 644 install/systemd/*
-sudo cp install/systemd/ttymidi* /etc/systemd/system
+sudo chmod 644 /home/we/shieldXL/install/systemd/*
+sudo cp /home/we/shieldXL/install/systemd/ttymidi* /etc/systemd/system
 sudo systemctl enable ttymidi0.service 
 
 # sudo cp --remove-destination /home/we/shieldXL/install/boot/config.txt  /boot/config.txt
