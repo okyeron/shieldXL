@@ -2,7 +2,7 @@
 
 PCBs sourced from denki-oto will include a few extras  
 
-	* pcb spacers for Choc switches - these are to be used between the choc switch and the main PCB to raise the swtich body up to a better level with the encoders. Not needed for MX switches
+	* pcb spacers for Choc switches (see build notes below). not needed for MX switches  
 
 	* acrylic display spacer - this is a 3mm thick acrylic spacer to support the OLED display
 	
@@ -12,7 +12,7 @@ PCBs sourced from denki-oto will include a few extras
 
 Solder the thru-hold parts -- do the pi-header first, then the jacks, encoders and switches.  
 
-If using Choc switches, use included PCB spacers between the switch and the main PCB. There should still be enough pin sticking through to solder these in one go.  
+If using Choc switches, use included PCB spacers between the switch and the main PCB. There should still be enough pin sticking through to solder these in one go. These are meant to raise the switch body up to a better level with the encoders.  
 
 NOTE - be sure the switch postion is nice and square in relation to the other parts - not rotated at all - so your keycaps don't end up looking wonky in the end.  
 
