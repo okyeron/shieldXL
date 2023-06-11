@@ -1,6 +1,7 @@
 # shieldXL Build Notes
 
 PCBs sourced from denki-oto will include a few extras  
+
 	* pcb spacers for Choc switches - these are to be used between the choc switch and the main PCB to raise the swtich body up to a better level with the encoders. Not needed for MX switches
 
 	* acrylic display spacer - this is a 3mm thick acrylic spacer to support the OLED display
@@ -23,6 +24,7 @@ For soldering help/tips see this awesome [guide from Adafruit](https://learn.ada
 [pictures needed]  
 
 The OLED uses an FPC cable to attach. This runs thru the hole in the pcb to the connector on the bottom. 
+
 	* Attach the cable to the display first and then connect it to the board   
 	* Slide the connector open with a spudger or a fingernail  
 	* Insert the FPC cable with the blue side facing up (away from the pcb)  
