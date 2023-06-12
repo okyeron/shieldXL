@@ -10,7 +10,7 @@ PCBs sourced from denki-oto will include a few extras
 	
 ## Build
 
-Solder the thru-hold parts -- do the pi-header first, then the jacks, encoders and switches.  
+Solder the thru-hold parts -- do the pi-header first, then switches. The jacks and encoders after.  
 
 If using Choc switches, use included PCB spacers between the switch and the main PCB. There should still be enough pin sticking through to solder these in one go. These are meant to raise the switch body up to a better level with the encoders.  
 
