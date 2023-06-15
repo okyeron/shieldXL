@@ -4,6 +4,8 @@ A rework/remix of the monome norns shield - a open-source/DIY shield for Raspber
 
 Please be very aware that this project is not directly supported by [monome](https://monome.org). Do not email monome asking for build help, debugging or repairs
 
+![<# shieldXL-inklinet #>](images/shieldXL-inkline-2.jpg "shieldXL-inkline-2.jpg")
+
 ## specifications
 
 - audio codec: CS4270
