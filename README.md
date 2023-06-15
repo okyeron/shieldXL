@@ -2,7 +2,7 @@
 
 A rework/remix of the monome norns shield - a open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org/docs/norns) ecosystem. Original designed by monome (brian crabtree, aka @tehn). Remixed in spring 2023 by denki-oto.
 
-Please be very aware that this project is not directly supported by [monome](https://monome.org). Do not email monome asking for build help, debugging or repairs
+__Please be very aware that this project is not directly supported by [monome](https://monome.org). Do not email monome asking for build help, debugging or repairs__
 
 ![<# shieldXL-inklinet #>](images/shieldXL-inkline-2.jpg "shieldXL-inkline-2.jpg")
 
