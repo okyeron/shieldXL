@@ -10,8 +10,7 @@
 |550-20311|4|Neutrik|NRJ6HF|https://octopart.com/nrj6hf-neutrik-758943?r=sp|Jack Phone 1/4 in. Stereo|
 | SEE BELOW |3|Cherry/Kailh| | |Cherry MX or Kailh Choc switches|
 |15167-0358|1|Molex|15167-0358|https://octopart.com/15167-0358-molex-38752501?r=sp|Display FPC Jumper Cables FFC 1.00 - 51mm| 
-|Alt FPC Cable|
-|151670356|1|Molex|151670356|https://octopart.com/15167-0356-molex-38752500?r=sp|Display FPC Jumper Cables FFC 1.00 - 31mm|
+|151670356|1|Molex|151670356|https://octopart.com/15167-0356-molex-38752500?r=sp|Alternative to 51mm cable, this is a little cleaner but may not be availble. Display FPC Jumper Cables FFC 1.00 - 31mm|
 
  	 	 	
  	 	 	
