@@ -11,9 +11,10 @@
 | SEE BELOW |3|Cherry/Kailh| | |Cherry MX or Kailh Choc switches|
 |15167-0358|1|Molex|15167-0358|https://octopart.com/15167-0358-molex-38752501?r=sp|Display FPC Jumper Cables FFC 1.00 - 51mm| 
 |Alternate Parts|
-|151670356|1|Molex|151670356|https://octopart.com/15167-0356-molex-38752500?r=sp|Alternative to 51mm cable, this is a little cleaner but may not be availble. Display FPC Jumper Cables FFC 1.00 - 31mm|
+|151670356|1|Molex|151670356|https://octopart.com/15167-0356-molex-38752500?r=sp|Display FPC Jumper Cables FFC 1.00 - 31mm. Alternative to 51mm cable, this is a little cleaner but may not be availble. |
 
-The Display FPC Jumper Cable specs - 20 Conductor, 1mm pitch, Opposite Side Contacts - either 31mm or 51mm will work. The 31mm is not available at Mouser.  
+The Display FPC Jumper Cable specs:   
+20 Conductor, 1mm pitch, Opposite Side Contacts - either 31mm or 51mm will work. The 31mm is not available at Mouser.  
 
  	 	 	
 ### Mounting Hardware/Stanoffs
