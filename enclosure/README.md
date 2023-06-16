@@ -6,6 +6,11 @@ Models for 3D printing provided by CarlosUnch, John Park and Steven Noreyko
 
 Top panel files by Steven Noreyko  
 
+## models for 3d printing
+
+`shieldXL_case_v1.1` is current  
+
+The models with "noInserts" are setup for M2.5 screws. The regular one is designed for using heat-set inserts.  
 
 
 ## dimensions

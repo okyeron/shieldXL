@@ -21,11 +21,11 @@ The Display FPC Jumper Cable specs:
 
 (still a work in progess)  
 
-* 4x 11mm F/F for pi 
-* 2x 16mm F/F - bottom side 
-* 3x 5mm M/F - top side
+* 3-4x 11mm F/F for pi  
+* 3x 8mm M/F - top side  
 
-Top side spacing will depend on your switch choice.  
+Optional (not using 3d printed case)  
+* 2x 16mm F/F - bottom side  
 
 Knobs are up to you.  
 
