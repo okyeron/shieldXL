@@ -28,6 +28,7 @@ Optional (not using 3d printed case)
 * 2x 16mm F/F - bottom side  
 
 Knobs are up to you.  
+I like these [Re-an-p670-frac-style](https://modularaddict.com/re-an-p670-frac-style-16mm-soft-touch-knob-d-shaft)  
 
 ---
 ## Key switches: 

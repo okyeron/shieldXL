@@ -47,7 +47,11 @@ and remove `serial0`
 (so change `console=serial0,115200` to `console=115200`)  
 and `sudo reboot`  
 
-This will internally connect the shieldXL hardware TRS MIDI jacks to the "Virtual MIDI" port which is accessible from the norns MIDI menu.  
+This will internally connect the shieldXL hardware TRS MIDI jacks to the "Virtual MIDI" port which is accessible from the norns MIDI menu (SYSTEM>DEVICES>MIDI).  
+
+__Troubleshooting__   
+
+- when checking MIDI functionality, remember that MIDI OUT has a Type A/B switch on the bottom front edge of the main PCB. Try switching that if you're not getting MIDI to your device.
 
 
 ## troubleshooting
