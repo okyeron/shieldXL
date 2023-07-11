@@ -6,7 +6,6 @@ PCBs sourced from denki-oto will include a few extras
 
 	* acrylic display spacer - this is a 3mm thick acrylic spacer to support the OLED display
 	
-	* standoff spacers - small 1.5mm thick spacers to be used with 5mm spacers on the top-side (if needed)
 	
 ## Build
 
@@ -21,7 +20,7 @@ For soldering help/tips see this awesome [guide from Adafruit](https://learn.ada
 
 ### Attaching the display
 
-[pictures needed]  
+[Video instructions](https://youtu.be/nq_Z90EFWEE)   
 
 The OLED uses an FPC cable to attach. This runs thru the hole in the pcb to the connector on the bottom. 
 

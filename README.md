@@ -36,6 +36,9 @@ cd ~/shieldXL
 ./install-midi.sh
 ```
 Then Edit `/boot/config.txt`  and add the following
+
+`sudo nano /boot/config.txt`  
+
 ```
 enable_uart=1
 dtoverlay=miniuart-bt
@@ -43,6 +46,9 @@ dtoverlay=uart0
 dtoverlay=midi-uart0
 ```
 edit `/boot/cmdline.txt` 
+
+`sudo nano /boot/cmdline.txt`  
+
 and remove `serial0`    
 (so change `console=serial0,115200` to `console=115200`)  
 and `sudo reboot`  

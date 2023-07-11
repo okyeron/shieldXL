@@ -1,10 +1,20 @@
-# shieldXL BOM for pre-assembled boards
+# shieldXL
+
+## Requirements 
+* [Raspberry Pi](https://www.raspberrypi.com/) - 3B, 3B+, 4B are supported. With the Pi 4B, the amount of RAM does not help/improve the norns experience. 1GB or 2GB models are great for this project  
+* microSD card - use a high quality brand such as SanDisk Class 10  
+* Power supply - Monome suggests using the official power supply for your model of Raspberry Pi. The Pi3B has a micro-USB power port and requires at least 2A and 5.25V ideally supplied through a cable with 24AWG or less. The Pi4 has a USB-C power port and 3A / 5.1V is recommended. Lower AWG = lower noise & more stable voltage delivery for better performance. Most consumer USB cables do not meet this spec, so please be sure to keep an eye out. You can also use a portable USB battery if it’s sufficiently large  
+
+
+## Parts/Components (BOM - Bill of Materials) for pre-assembled boards
+
+If you purchase a kit from denki-oto some of these items may be included. 
 
 [Mouser Cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=c161b7b4d2) (Does not include switches)  
 
 | Part | QTY | MFG | Part Num | Octopart | Desc |
 |--------|:--:|-----|-----|-----|-----|
-|1528-1785-ND|1|Adafruit Industries|2222|https://octopart.com/2222-adafruit+industries-53880117?r=sp|GPIO Header for Raspberry Pi A+/B+ - Tall 2x20 Female Header|
+|1528-1785-ND|1|Adafruit Industries|2222|https://octopart.com/2222-adafruit+industries-53880117?r=sp|GPIO Header for Raspberry Pi A+/B+ - 2x20 Female Header|
 |NHD-2.7-12864WDW3-M|1|Newhaven Display|NHD-2.7-12864WDW3-M|https://octopart.com/nhd-2.7-12864wdw3-m-newhaven+display-89255061|OLED Displays & Accessories 2.7 in White OLED 128 x 64 MOLEX CONNECTOR|
 |PEC11R-4015F-N0024|3|Bourns|PEC11R-4015F-N0024|https://octopart.com/pec11r-4015f-n0024-bourns-26648251|24 Pulse Incremental Mechanical Rotary Encoder w/ 6 mm Flat Shaft|
 |550-20311|4|Neutrik|NRJ6HF|https://octopart.com/nrj6hf-neutrik-758943?r=sp|Jack Phone 1/4 in. Stereo|
@@ -17,7 +27,7 @@ The Display FPC Jumper Cable specs:
 20 Conductor, 1mm pitch, Opposite Side Contacts - either 31mm or 51mm will work. The 31mm is not available at Mouser.  
 
  	 	 	
-### Mounting Hardware/Stanoffs
+## Mounting Hardware/Stanoffs
 
 (still a work in progess)  
 
