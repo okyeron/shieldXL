@@ -35,17 +35,19 @@ git clone https://github.com/okyeron/shieldXL.git
 cd ~/shieldXL 
 ./install-midi.sh
 ```
-Then Edit `/boot/config.txt`  and add the following
+Then Edit `/boot/config.txt` 
 
 `sudo nano /boot/config.txt`  
 
+and add the following  
+ 
 ```
 enable_uart=1
 dtoverlay=miniuart-bt
 dtoverlay=uart0
 dtoverlay=midi-uart0
 ```
-edit `/boot/cmdline.txt` 
+Then edit `/boot/cmdline.txt` 
 
 `sudo nano /boot/cmdline.txt`  
 
