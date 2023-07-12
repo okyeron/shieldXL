@@ -8,10 +8,11 @@ __Please be very aware that this project is not directly supported by [monome](h
 
 ## specifications
 
-- audio codec: CS4270
-- audio jacks: 6.5mm in and out, line level
-- OLED: NHD-2.7-12864WDW3-M (w/ MOLEX connector)
-- 3x pushbutton switches, 3x rotary encoders
+- audio codec: CS4270  
+- audio jacks: 6.5mm in and out, line level  
+- OLED: NHD-2.7-12864WDW3-M (w/ MOLEX connector)  
+- 3x pushbutton switches, 3x rotary encoders  
+- dimensions (with enclosure): 138mm x 96mm x 30mm  
 
 ## versions
 
