@@ -11,6 +11,10 @@ PCBs sourced from denki-oto will include a few extras
 
 Solder the thru-hold parts -- do the pi-header first, then switches. The jacks and encoders after.  
 
+The pi-header attaches from __the bottom__ of the pcb.
+
+The switches and encoders attach from __the top__ of the pcb
+
 If using Choc switches, use included PCB spacers between the switch and the main PCB. There should still be enough pin sticking through to solder these in one go. These are meant to raise the switch body up to a better level with the encoders.  
 
 NOTE - be sure the switch postion is nice and square in relation to the other parts - not rotated at all - so your keycaps don't end up looking wonky in the end.  
