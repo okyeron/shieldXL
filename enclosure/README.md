@@ -8,9 +8,13 @@ Top panel files by Steven Noreyko
 
 ## models for 3d printing
 
-`shieldXL_case_v1.1` is current  
+`shieldXL_case_v1.4.4` is current  
 
-The models with "noInserts" are setup for M2.5 screws. The regular one is designed for using heat-set inserts.  
+Use the STL file for ordering from 3D printing services or printing yourself.  
+
+Use the STEP file if you're wanting to customize/modify the model.  
+
+Models are setup for M2.5 screws. 
 
 
 ## dimensions
@@ -24,3 +28,5 @@ keyswitch holes: 19mm x 19mm
 encoder holes: 8mm
 
 mounting holes: 3mm
+
+enclosure dimensions: 138mm x 96mm x 30mm  
