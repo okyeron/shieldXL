@@ -22,6 +22,9 @@ If you purchase a kit from denki-oto some of these items may be included.
 |15167-0358|1|Molex|15167-0358|https://octopart.com/15167-0358-molex-38752501?r=sp|Display FPC Jumper Cables FFC 1.00 - 51mm| 
 |Alternate Parts|
 |151670356|1|Molex|151670356|https://octopart.com/15167-0356-molex-38752500?r=sp|Display FPC Jumper Cables FFC 1.00 - 31mm. Alternative to 51mm cable, this is a little cleaner but may not be availble. |
+|Optional|
+|550-1005|4|Neutrik|NRJ-NUT-B|https://octopart.com/nrj-nut-b-neutrik-141986?r=sp|PLASTIC NUT|
+
 
 The Display FPC Jumper Cable specs:   
 20 Conductor, 1mm pitch, Opposite Side Contacts - either 31mm or 51mm will work. The 31mm is not available at Mouser.  
