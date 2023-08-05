@@ -1,6 +1,6 @@
 # shieldXL
 
-A rework/remix of the monome norns shield - a open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org/docs/norns) ecosystem. Original designed by monome (brian crabtree, aka @tehn). Remixed in spring 2023 by denki-oto.
+A rework/remix of the monome norns shield - an open-source/DIY shield for Raspberry Pi boards, providing hardware compatibility with the [norns](https://monome.org/docs/norns) ecosystem. Original designed by monome (brian crabtree, aka @tehn). Remixed in spring 2023 by denki-oto.
 
 __Please be very aware that this project is not directly supported by [monome](https://monome.org). Do not email monome asking for build help, debugging or repairs__
 
@@ -22,6 +22,12 @@ This rework/remix is based on the 210330 version of the norns shield. It uses th
 ## documentation
 
 [See the monome website for general norns shield documentation](https://monome.org/docs/norns/shield/) 
+
+## build
+
+[Bill of Materials](bom/BOM.md)
+
+[Build Guide](BUILD.md)
 
 ## installation
 
@@ -65,19 +71,19 @@ This will internally connect the shieldXL hardware TRS MIDI jacks to the "Virtua
 
 __Troubleshooting__   
 
-- when checking MIDI functionality, remember that MIDI OUT has a Type A/B switch on the bottom front edge of the main PCB. Try switching that if you're not getting MIDI to your device.
+- When checking MIDI functionality, remember that MIDI OUT has a Type A/B switch on the bottom front edge of the main PCB. Try switching that if you're not getting MIDI to your device.
 
 
 ## troubleshooting
 
-- most soldering problems can be solved simply by reheating solder joints. bad solders can result in various problems: screen doesn't turn on, knobs/keys don't work.
-- use a good SD card, not a cheap one. if you're having trouble, try using a different card.
-- be sure to use the correct power supply. the pi will not power well from a laptop and you'll get confusing errors. get a dedicated 3A USB supply, or very high output USB battery.
+- Most soldering problems can be solved simply by reheating solder joints. Bad solders can result in various problems: screen doesn't turn on, knobs/keys don't work.
+- Use a good SD card, not a cheap one. If you're having trouble, try using a different card.
+- Be sure to use the correct power supply. The pi will not power well from a laptop and you'll get confusing errors. Get a dedicated 3A USB supply, or very high output USB battery.
 
 ## notes
 
-- the shield does not have a dedicated headphone output, but headphones work fine on the main outputs (use the left output jack). the headphone gain level within the norns menu does nothing in this case.
-- the battery indication will not function - there is no battery.
+- The shield does not have a dedicated headphone output, but headphones work fine on the main outputs (use the left output jack). The headphone gain level within the norns menu does nothing in this case.
+- The battery indication will not function - there is no battery.
 
 ## License
 
