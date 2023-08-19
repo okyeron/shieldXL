@@ -69,16 +69,22 @@ and `sudo reboot`
 
 This will internally connect the shieldXL hardware TRS MIDI jacks to the "Virtual MIDI" port which is accessible from the norns MIDI menu (SYSTEM>DEVICES>MIDI).  
 
-__Troubleshooting__   
+__MIDI Troubleshooting__   
 
 - When checking MIDI functionality, remember that MIDI OUT has a Type A/B switch on the bottom front edge of the main PCB. Try switching that if you're not getting MIDI to your device.
 
+## mods
 
-## troubleshooting
+__Battery Modication__  
+Add a Pisugar S Plus battery to your shieldXL:  https://github.com/JGuzak/shieldXl_battery  
+
+
+## general troubleshooting
 
 - Most soldering problems can be solved simply by reheating solder joints. Bad solders can result in various problems: screen doesn't turn on, knobs/keys don't work.
 - Use a good SD card, not a cheap one. If you're having trouble, try using a different card.
 - Be sure to use the correct power supply. The pi will not power well from a laptop and you'll get confusing errors. Get a dedicated 3A USB supply, or very high output USB battery.
+- see the [norns documentation](https://monome.org/docs/norns/shield/) for help with the software  
 
 ## notes
 
