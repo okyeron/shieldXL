@@ -38,6 +38,8 @@ Specifically:
 * [norns220306-shield-pi3](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi3-cs4270.tgz)
 * [norns220306-shield-pi4](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi4-cs4270.tgz)
 
+REMEMBER TO EXPAND THE DISK IMAGE AFTER INSTALL  
+[https://monome.org/docs/norns/shield/#expand-filesystem](https://monome.org/docs/norns/shield/#expand-filesystem)
 
 ## enabling hardware midi
 
