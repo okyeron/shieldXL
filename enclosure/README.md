@@ -8,7 +8,9 @@ Top panel files by Steven Noreyko
 
 ## models for 3d printing
 
-`shieldXL_case_v1.4.4` is current  
+`shieldXL_case_v1.4.4` is best for home FDM printers (PLA, etc.)  
+
+`shieldXL_case_v1.5.1` is optimized for commercial SLS Nylon printering. (from JLCPCB, etc.)  
 
 Use the STL file for ordering from 3D printing services or printing yourself.  
 
