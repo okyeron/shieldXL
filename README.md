@@ -33,10 +33,10 @@ This rework/remix is based on the 210330 version of the norns shield. It uses th
 
 See [https://monome.org/docs/norns/help/#fresh-shield](https://monome.org/docs/norns/help/#fresh-shield) for installation instructions.  
 
-See [norns releases on github](https://github.com/monome/norns-image/releases/tag/220306) for disk images (pre-211028 shield for cs4270 codec).  
+See [norns releases on github](https://github.com/monome/norns-image/releases/tag/231114-img) for disk images (pre-211028 shield for cs4270 codec).  
 Specifically:  
-* [norns220306-shield-pi3](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi3-cs4270.tgz)
-* [norns220306-shield-pi4](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi4-cs4270.tgz)
+* [norns231114-shield-pi3](https://github.com/monome/norns-image/releases/download/231114-img/norns231114-shield-pi3-cs4720.tgz)
+* [norns231114-shield-pi4](https://github.com/monome/norns-image/releases/download/231114-img/norns231114-shield-pi4-cs4720.tgz)
 
 REMEMBER TO EXPAND THE DISK IMAGE AFTER INSTALL  
 [https://monome.org/docs/norns/shield/#expand-filesystem](https://monome.org/docs/norns/shield/#expand-filesystem)
