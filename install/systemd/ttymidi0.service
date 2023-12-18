@@ -5,6 +5,9 @@ After=sound.target
 [Service]
 ExecStart=/usr/bin/ttymidi -s /dev/ttyAMA0 -b 38400 -n shieldXL
 EnvironmentFile=/etc/environment
+RemainAfterExit=no
+Restart=on-failure
+RestartSec=1s
 
 [Install]
 WantedBy=multi-user.target
