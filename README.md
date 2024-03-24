@@ -36,7 +36,8 @@ See [https://monome.org/docs/norns/help/#fresh-shield](https://monome.org/docs/n
 See [norns releases on github](https://github.com/monome/norns-image/releases/tag/231114-img) for disk images (pre-211028 shield for cs4270 codec).  
 Specifically:  
 * [norns231114-shield-pi3](https://github.com/monome/norns-image/releases/download/231114-img/norns231114-shield-pi3-cs4720.tgz)
-* [norns231114-shield-pi4](https://github.com/monome/norns-image/releases/download/231114-img/norns231114-shield-pi4-cs4720.tgz)
+* [norns220306-shield-pi4](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi4-cs4270.tgz)
+(USE THE OLDER IMAGE FOR PI4)
 
 REMEMBER TO EXPAND THE DISK IMAGE AFTER INSTALL  
 [https://monome.org/docs/norns/shield/#expand-filesystem](https://monome.org/docs/norns/shield/#expand-filesystem)
