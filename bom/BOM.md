@@ -24,6 +24,8 @@ If you purchase a kit from denki-oto some of these items may be included.
 |151670356|1|Molex|151670356|https://octopart.com/15167-0356-molex-38752500?r=sp|Display FPC Jumper Cables FFC 1.00 - 31mm. Alternative to 51mm cable, this is a little cleaner but may not be availble. |
 |Optional|
 |550-1005|4|Neutrik|NRJ-NUT-B|https://octopart.com/nrj-nut-b-neutrik-141986?r=sp|PLASTIC NUT|
+|Alternate - Yellow Display|
+|NHD-2.7-12864WDY3-M|1|Newhaven Display|NHD-2.7-12864WDY3-M|https://octopart.com/search?q=nhd-2.7-12864WDY3-m|OLED Displays & Accessories 2.7 in Yellow OLED 128 x 64 MOLEX CONNECTOR|
 
 
 The Display FPC Jumper Cable specs:   
