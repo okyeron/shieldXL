@@ -53,6 +53,8 @@ git clone https://github.com/okyeron/shieldXL.git
 cd ~/shieldXL 
 ./install-midi.sh
 ```
+(note - the install script will trigger a reboot)  
+
 Then Edit `/boot/config.txt` 
 
 `sudo nano /boot/config.txt`  
