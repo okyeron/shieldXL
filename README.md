@@ -59,7 +59,7 @@ Then Edit `/boot/config.txt`
 
 `sudo nano /boot/config.txt`  
 
-and add the following  
+scroll to the bottom of the text and add the following at the end  
  
 ```
 enable_uart=1
