@@ -33,12 +33,14 @@ This rework/remix is based on the 210330 version of the norns shield. It uses th
 
 See [https://monome.org/docs/norns/help/#fresh-shield](https://monome.org/docs/norns/help/#fresh-shield) for installation instructions.  
 
-See [norns releases on github](https://github.com/monome/norns-image/releases/tag/231114-img) for disk images (pre-211028 shield for cs4270 codec).  
-Pi3:  
+See [norns releases on github](https://github.com/monome/norns-image/releases/tag/231114-img) for disk images (pre-211028 shield for cs4270 codec).   
+
+Pi3 disk image:    
 *  [norns231114-shield-pi3](https://github.com/monome/norns-image/releases/download/231114-img/norns231114-shield-pi3-cs4720.tgz)
-For Pi4 - Try starting with 220306. If you get a blank screen, try starting over with 231114
-* Pi4 220306 [norns220306-shield-pi4](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi4-cs4270.tgz)
-* Pi4 231114 [norns231114-shield-pi4](https://github.com/monome/norns-image/releases/download/231114-img/norns231114-shield-pi4-cs4720.tgz)
+
+Pi4 disk images (Try starting with 220306. If you get a blank screen, try starting over with 231114):  
+* Pi4 220306 [norns220306-shield-pi4](https://github.com/monome/norns-image/releases/download/220306/norns220306-shield-pi4-cs4270.tgz)  
+* Pi4 231114 [norns231114-shield-pi4](https://github.com/monome/norns-image/releases/download/231114-img/norns231114-shield-pi4-cs4720.tgz)  
 
 REMEMBER TO EXPAND THE DISK IMAGE AFTER INSTALL  
 [https://monome.org/docs/norns/shield/#expand-filesystem](https://monome.org/docs/norns/shield/#expand-filesystem)
@@ -51,11 +53,13 @@ git clone https://github.com/okyeron/shieldXL.git
 cd ~/shieldXL 
 ./install-midi.sh
 ```
+(note - the install script will trigger a reboot)  
+
 Then Edit `/boot/config.txt` 
 
 `sudo nano /boot/config.txt`  
 
-and add the following  
+scroll to the bottom of the text and add the following at the end  
  
 ```
 enable_uart=1

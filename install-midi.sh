@@ -19,8 +19,13 @@ sudo cp --remove-destination /home/we/shieldXL/install/99-com.rules  /etc/udev/r
 
 git clone https://github.com/mzero/amidiminder.git
 cd amidiminder
-make
-sudo dpkg -i build/amidiminder.deb
+#make
+mkdir -p ./build
+cd build
+wget https://github.com/mzero/amidiminder/releases/download/0.70/amidiminder_0.70_armhf.deb
+sudo dpkg -i amidiminder_0.70_armhf.deb
+
+
 sudo cp --remove-destination /home/we/shieldXL/install/amidiminder.rules  /home/we/shieldXL/amidiminder.rules
 sudo chown we:we /home/we/shieldXL/amidiminder.rules
 sudo chmod 777 /home/we/shieldXL/amidiminder.rules
