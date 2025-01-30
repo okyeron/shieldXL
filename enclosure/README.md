@@ -18,6 +18,7 @@ Use the STEP file if you're wanting to customize/modify the model.
 
 Models are setup for M2.5 screws. 
 
+![<# SLS Nylon caset #>](shieldXL_case_v1.6.4-SLS-Nylon/SLSNyloncase.png "SLSNyloncase")
 
 ## dimensions
 
