@@ -36,6 +36,8 @@ enclosure dimensions: 138mm x 96mm x 30mm
 
 ## shieldsaver 
 
-design by "rm"  
+design by "rm"  [https://github.com/roge-rm](https://github.com/roge-rm)  
 
 a "decksaver" cover for the standard 3d printed cases.
+
+![<# shieldsaver #>](shieldsaver/shieldsaver1.png "shieldsaver1.png")
