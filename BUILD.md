@@ -63,10 +63,14 @@ The OLED uses an FPC cable to attach. This runs through the hole in the PCB to t
 
 [Video instructions](https://youtu.be/K84_22LJrQo)
 
-NOTE - the acrylic top panels in the standard kit ship with a paper backing to prevent damage. Remove the paper backing from both sides.  
-
 ![standoffs](images/build/build-standoffs.jpg)
 
 ![attach pi](images/build/build-attach-pi.jpg)
 
 ![case](images/build/build-case.jpg)
+
+### Attach the top panel
+
+IMPORTANT - the acrylic top panels in the standard kit ship with a paper backing to prevent damage. PCB panels have an acrylic window insert - also with paper backing. Remove the paper backing from both sides.  
+
+Use the remaining screws (3x 6mm long, and 1x 16mm long) to attach the top panel. Do not over-tighten screws.  
