@@ -1,0 +1,10529 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b2423c37-2510-4f51-b4ed-eb1508837c62")
+	(paper "User" 443.23 305.206)
+	(lib_symbols
+		(symbol "Hachi-Ni_v26-eagle-import:CAP_CERAMIC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Hachi-Ni_v26:0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_CERAMIC0603_1_0"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.27 1.524)
+					(end 1.27 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Hachi-Ni_v26-eagle-import:EG1390B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Hachi-Ni_v26:SOP250P600X400-6N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EG1390B_1_0"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -7.62) (xy 25.4 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2_COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "5_COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Hachi-Ni_v26-eagle-import:HCPL-0631-500E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Hachi-Ni_v26:SOIC127P599X350-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HCPL-0631-500E_1_0"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 27.94 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 -10.16) (xy 27.94 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "ANODE_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CATHODE_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CATHODE_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "ANODE_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "VO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "VO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Hachi-Ni_v26-eagle-import:MICROBUILDER_LED0603_NOOUTLINE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Footprint" "Hachi-Ni_v26:MICROBUILDER_CHIPLED_0603_NOOUTLINE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MICROBUILDER_LED0603_NOOUTLINE_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3175 2.2225) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy -0.9525 2.8575)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.9525 2.2225) (xy 1.27 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 0.3175 2.8575)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Hachi-Ni_v26-eagle-import:MICROBUILDER_RESISTOR_0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(bold yes)
+					)
+				)
+			)
+			(property "Footprint" "Hachi-Ni_v26:MICROBUILDER__0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MICROBUILDER_RESISTOR_0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Hachi-Ni_v26-eagle-import:PJ-320B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Hachi-Ni_v26:LUOYANG-DISHANG_PJ-320B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJ-320B_1_0"
+				(polyline
+					(pts
+						(xy -5.715 -3.81) (xy -5.715 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0.635) (xy -5.08 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0.635) (xy -4.445 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -3.81) (xy -5.715 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0.635) (xy -4.445 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -0.635) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "TIP"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "RING"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SLEEVE"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Hachi-Ni_v26-eagle-import:supply1_GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "supply1_GND"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "supply1_GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MyLibrary:CHERRY-MX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K2"
+				(at 5.334 7.366 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" "CHERRY-MX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "CHERRY-MX"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CHERRY-MX_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "CHERRY-MX"
+					(at -6.096 5.842 0)
+					(effects
+						(font
+							(size 1.4224 1.209)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "PIN-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "PIN-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "norns-shield-210330-eagle-import:+3V3"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#+3V3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at -2.54 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "norns-shield-210330-eagle-import:C-USC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.016 -4.191 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "norns-shield-210330:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-USC0603_1_0"
+				(arc
+					(start 0 -1.0161)
+					(mid -1.302 -1.2303)
+					(end -2.4668 -1.8504)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.4892 -1.8541)
+					(mid 1.3158 -1.2194)
+					(end 0 -1)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "norns-shield-210330-eagle-import:ENC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -10.16 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "norns-shield-210330:PEC11RN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ENC_1_0"
+				(polyline
+					(pts
+						(xy -10.16 -10.16) (xy -10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 10.16) (xy 12.7 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy -10.16 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "norns-shield-210330-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "norns-shield-210330-eagle-import:OLED128X64"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "norns-shield-210330:OLED-ALEPH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OLED128X64_1_0"
+				(polyline
+					(pts
+						(xy -22.86 -45.72) (xy -7.62 -45.72)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 25.4) (xy -22.86 -45.72)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -45.72) (xy -7.62 25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 25.4) (xy -22.86 25.4)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 22.86 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -15.24 0)
+					(length 5.08)
+					(name "DB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -17.78 0)
+					(length 5.08)
+					(name "DB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -20.32 0)
+					(length 5.08)
+					(name "DB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -22.86 0)
+					(length 5.08)
+					(name "DB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -25.4 0)
+					(length 5.08)
+					(name "DB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -33.02 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -30.48 0)
+					(length 5.08)
+					(name "/RES"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -35.56 0)
+					(length 5.08)
+					(name "/CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -38.1 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -40.64 0)
+					(length 5.08)
+					(name "BS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 17.78 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -43.18 0)
+					(length 5.08)
+					(name "BS0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 15.24 0)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 12.7 0)
+					(length 5.08)
+					(name "D/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 7.62 0)
+					(length 5.08)
+					(name "R/W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 2.54 0)
+					(length 5.08)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -2.54 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -7.62 0)
+					(length 5.08)
+					(name "SDIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -12.7 0)
+					(length 5.08)
+					(name "DB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "norns-shield-210330-eagle-import:R-US_R0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "norns-shield-210330:R0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-US_R0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "norns-shield-210330-eagle-import:TABL_L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FRAME"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TABL_L_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 401.32 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 266.7) (xy 0 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 401.32 0) (xy 401.32 266.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 401.32 266.7) (xy 0 266.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TABL_L_2_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 71.12 0)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 15.24)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 71.12 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 0 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 22.86) (xy 0 35.56)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 22.86) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 71.12 0) (xy 101.6 0)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 71.12 5.08) (xy 71.12 0)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 71.12 5.08) (xy 87.63 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 87.63 5.08) (xy 101.6 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 87.63 15.24) (xy 0 15.24)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 87.63 15.24) (xy 87.63 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 5.08) (xy 101.6 0)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 15.24) (xy 87.63 15.24)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 15.24) (xy 101.6 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 22.86) (xy 101.6 15.24)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 0 35.56)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "${#}/${##}"
+					(at 86.36 1.27 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${CURRENT_DATE}"
+					(at 12.7 1.27 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${PROJECTNAME}"
+					(at 17.78 19.05 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Date:"
+					(at 1.27 1.27 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Document Number:"
+					(at 1.27 11.43 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "REV:"
+					(at 88.9 11.43 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Sheet:"
+					(at 72.39 1.27 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "TITLE:"
+					(at 1.27 19.05 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 157.48 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0959e494-c5e7-46fa-853c-e4265327b916")
+	)
+	(junction
+		(at 165.1 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b22ac92-087f-47ce-a70c-cbf19b76665e")
+	)
+	(junction
+		(at 294.64 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cd7b32e-1072-47ca-8eb4-67a7648b6388")
+	)
+	(junction
+		(at 212.09 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e7a1c81-d3ce-4816-8854-477c4a3301cb")
+	)
+	(junction
+		(at 209.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f05a321-a71d-4d6c-ae8a-4414fbf318a7")
+	)
+	(junction
+		(at 227.33 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "180c09fd-1164-4e1e-91ff-7ffda4250f4e")
+	)
+	(junction
+		(at 303.53 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a2f2efb-4d50-4ee0-a852-f0bf8ac8aac9")
+	)
+	(junction
+		(at 153.67 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b5ecca6-e442-4228-b931-5852702146e5")
+	)
+	(junction
+		(at 213.36 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d621a43-b58a-4116-880d-2d98166f5b91")
+	)
+	(junction
+		(at 297.18 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea0df87-7e04-4e74-a3ad-98c6ac01015c")
+	)
+	(junction
+		(at 294.64 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26d88069-49de-4480-a058-b74447edeca7")
+	)
+	(junction
+		(at 157.48 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2748a468-6365-4922-9e1c-a79a1df7e56f")
+	)
+	(junction
+		(at 157.48 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba89de7-4362-4114-a312-445753c413a5")
+	)
+	(junction
+		(at 139.7 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3009dda7-48ea-48d7-bfc0-d9126b323946")
+	)
+	(junction
+		(at 213.36 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36561089-fe35-42f7-9a62-261cc1be5ed0")
+	)
+	(junction
+		(at 157.48 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b3393e1-95fe-410e-a36a-17a6423878d9")
+	)
+	(junction
+		(at 227.33 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c3be162-ef9f-4271-a998-1a943ebd852c")
+	)
+	(junction
+		(at 139.7 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c05947b-4c95-4b07-ab61-dcb526ad7b74")
+	)
+	(junction
+		(at 147.32 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e137411-e80f-43a9-b63a-4d9badb924be")
+	)
+	(junction
+		(at 213.36 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5927086a-cea7-4472-9216-6330b6ad5e90")
+	)
+	(junction
+		(at 213.36 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e995406-8423-4f2f-9e01-3e360fe18a4c")
+	)
+	(junction
+		(at 294.64 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6161262e-293b-43fa-9e02-4e0648466e62")
+	)
+	(junction
+		(at 157.48 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a2bdc42-3810-4f5e-96c4-385170a6e857")
+	)
+	(junction
+		(at 294.64 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b01e246-ae40-4cd6-b133-f4cdde7a31f0")
+	)
+	(junction
+		(at 294.64 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e3f0e9-a333-4b76-87d4-ec3bb9c20b29")
+	)
+	(junction
+		(at 213.36 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83f120a8-0e4e-4041-85a9-859fbdcdd54a")
+	)
+	(junction
+		(at 231.14 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ebfcc4f-5c04-4d05-bcab-ac53c44a3f1c")
+	)
+	(junction
+		(at 231.14 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92752997-15f6-48a4-bde0-7ede91c6948d")
+	)
+	(junction
+		(at 157.48 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a69ff877-7737-4dda-8ba9-509e1566c6d2")
+	)
+	(junction
+		(at 294.64 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97a7a9b-442c-4d15-b245-53a020051a39")
+	)
+	(junction
+		(at 294.64 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad9b615f-d1df-44a9-9f89-e05258564320")
+	)
+	(junction
+		(at 148.59 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adc5cee2-7b0f-4509-92cd-31b3ede8e05f")
+	)
+	(junction
+		(at 161.29 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae179f74-f38b-45f9-bcd6-2afde2ecaa67")
+	)
+	(junction
+		(at 165.1 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b423503b-a542-4569-9301-17eb1c9f5ea6")
+	)
+	(junction
+		(at 165.1 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bae578a1-6ab2-4296-ba76-662fb6b204d0")
+	)
+	(junction
+		(at 147.32 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbdd3938-b4ca-443c-86e0-173d6e980185")
+	)
+	(junction
+		(at 147.32 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd2ab0b6-59e2-43e7-89e7-5fed0720c6bb")
+	)
+	(junction
+		(at 139.7 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c15ac2df-67f2-425e-8ebe-5894773a1e73")
+	)
+	(junction
+		(at 213.36 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5baddaa-bcf9-4d4c-9b95-f4d1ad6fc0b0")
+	)
+	(junction
+		(at 229.87 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d506ba91-5c1f-4306-b606-92f48200a790")
+	)
+	(junction
+		(at 294.64 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5400eb5-6597-482d-8006-058014e924f5")
+	)
+	(junction
+		(at 294.64 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1f9140d-c137-4f0f-a6d9-873a1beff168")
+	)
+	(no_connect
+		(at 299.72 134.62)
+		(uuid "a4a42ed8-08d7-44f6-a3db-c9152109be58")
+	)
+	(wire
+		(pts
+			(xy 213.36 193.04) (xy 213.36 190.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0311ccaa-5df2-4c4d-a4c0-5a6ec0adac79")
+	)
+	(wire
+		(pts
+			(xy 299.72 185.42) (xy 289.56 185.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "06c26732-bda3-4548-aa8c-bc0174b66d39")
+	)
+	(wire
+		(pts
+			(xy 294.64 193.04) (xy 294.64 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "078e0808-7159-46b4-ae8d-b10fdfff4e7c")
+	)
+	(wire
+		(pts
+			(xy 299.72 190.5) (xy 294.64 190.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "095d09b2-359c-44ce-bab2-2653f6872ad1")
+	)
+	(wire
+		(pts
+			(xy 334.01 40.64) (xy 334.01 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "09bf8656-c206-4ebd-ae9b-61bf658e8fb1")
+	)
+	(wire
+		(pts
+			(xy 132.08 180.34) (xy 157.48 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "09cb3a07-321b-4531-a1af-7ee839282e09")
+	)
+	(wire
+		(pts
+			(xy 215.9 177.8) (xy 213.36 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c6b7f3e-65df-4073-8141-9ea76be3db0b")
+	)
+	(wire
+		(pts
+			(xy 242.57 35.56) (xy 219.71 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d434a21-d588-4b71-9277-8498464f7ab5")
+	)
+	(wire
+		(pts
+			(xy 246.38 142.24) (xy 246.38 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d695843-6753-44e8-bcf9-17893ffe2a6a")
+	)
+	(wire
+		(pts
+			(xy 217.17 78.74) (xy 222.25 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d949917-afc3-492c-bdec-f973bb24cfb7")
+	)
+	(wire
+		(pts
+			(xy 299.72 152.4) (xy 289.56 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ddaa94e-ce62-4881-9429-77866b67e7b5")
+	)
+	(wire
+		(pts
+			(xy 240.03 63.5) (xy 240.03 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "152764de-c4bd-4c03-b2d2-3ec527a20e1b")
+	)
+	(wire
+		(pts
+			(xy 231.14 144.78) (xy 233.68 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16203d61-a7b9-4c45-bee1-4973fa5c791d")
+	)
+	(wire
+		(pts
+			(xy 129.54 165.1) (xy 147.32 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1728f1c9-57ac-4e69-9a76-3fadf0f7bdae")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 165.1 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "183e182b-dfef-40fc-a506-6ff2e7bb2f98")
+	)
+	(wire
+		(pts
+			(xy 246.38 144.78) (xy 243.84 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c6f3a5f-c405-4f69-9e26-5b4ea3491fe6")
+	)
+	(wire
+		(pts
+			(xy 229.87 109.22) (xy 229.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e51b138-0a35-4e3f-ae3a-ef70326d17cf")
+	)
+	(wire
+		(pts
+			(xy 161.29 33.02) (xy 161.29 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f61fa06-164d-4c35-b531-4672710ac603")
+	)
+	(wire
+		(pts
+			(xy 226.06 144.78) (xy 231.14 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "201c148a-5791-4d09-b13c-fe0f23dfe813")
+	)
+	(wire
+		(pts
+			(xy 297.18 142.24) (xy 297.18 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "22a2c60e-ade4-49b1-8594-a3d1a0d3d742")
+	)
+	(wire
+		(pts
+			(xy 157.48 231.14) (xy 165.1 231.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "26e29209-e528-4349-9f57-6edaa135d3da")
+	)
+	(wire
+		(pts
+			(xy 213.36 149.86) (xy 213.36 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "278ea04c-86fd-44c7-b16f-b7f79aec69b2")
+	)
+	(wire
+		(pts
+			(xy 157.48 167.64) (xy 157.48 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2841dbfe-ab4f-4c18-9b20-c7884960f51e")
+	)
+	(wire
+		(pts
+			(xy 226.06 177.8) (xy 231.14 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2887964b-7c3f-49ef-96c0-31cd1e9bd5ac")
+	)
+	(wire
+		(pts
+			(xy 212.09 30.48) (xy 219.71 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "28cac32d-709b-49ba-862d-5cecafb17431")
+	)
+	(wire
+		(pts
+			(xy 149.86 167.64) (xy 157.48 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2a1bbc0b-06fb-4de2-965a-fd3d60cead9d")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68) (xy 246.38 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ce4b24a-6588-4b4b-807e-0b16bc2db1ee")
+	)
+	(wire
+		(pts
+			(xy 231.14 193.04) (xy 233.68 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d14ecf3-5e02-4174-9df8-e94af145d76e")
+	)
+	(wire
+		(pts
+			(xy 132.08 223.52) (xy 132.08 231.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2e60eac9-8831-4f4d-a492-8173d4a02a3e")
+	)
+	(wire
+		(pts
+			(xy 231.14 154.94) (xy 231.14 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f78f52d-5e4f-44b4-96dc-ee2d48417eb1")
+	)
+	(wire
+		(pts
+			(xy 233.68 187.96) (xy 231.14 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f947a16-7e13-4581-95ad-2ff17178c43c")
+	)
+	(wire
+		(pts
+			(xy 157.48 127) (xy 157.48 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "310605b0-28ba-4c20-8514-c9d064c03428")
+	)
+	(wire
+		(pts
+			(xy 299.72 137.16) (xy 289.56 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "321ca421-b6bb-46c4-b72b-c67ffa17a3eb")
+	)
+	(wire
+		(pts
+			(xy 129.54 114.3) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "32cf841b-1db9-4196-a54a-7d6bbf886f4d")
+	)
+	(wire
+		(pts
+			(xy 157.48 218.44) (xy 157.48 220.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "32f014b9-6072-4e40-9716-94463c08b1cf")
+	)
+	(wire
+		(pts
+			(xy 222.25 63.5) (xy 227.33 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "33d64de7-f7e8-4369-97ae-68a2288da57d")
+	)
+	(wire
+		(pts
+			(xy 194.31 38.1) (xy 196.85 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3459d36b-8f7f-4a5c-bdcf-ac4675590dca")
+	)
+	(wire
+		(pts
+			(xy 139.7 167.64) (xy 129.54 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35a9f73c-f65b-4530-8262-6cfcd6a0c7a1")
+	)
+	(wire
+		(pts
+			(xy 294.64 162.56) (xy 294.64 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "36946a6e-568c-4520-9da7-8d41fd9507dc")
+	)
+	(wire
+		(pts
+			(xy 257.81 68.58) (xy 267.97 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "36e4c19f-3160-4b0f-b5d9-9d3e2bd779c6")
+	)
+	(wire
+		(pts
+			(xy 227.33 66.04) (xy 240.03 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "39f79805-ba6f-4eb7-a1b3-62696f1bdebc")
+	)
+	(wire
+		(pts
+			(xy 209.55 33.02) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3a508254-0457-4fbf-8b84-b6e1dd64f3e5")
+	)
+	(wire
+		(pts
+			(xy 214.63 63.5) (xy 214.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c44c8ce-6959-4186-922e-0a29e7db13b4")
+	)
+	(wire
+		(pts
+			(xy 148.59 22.86) (xy 148.59 17.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3df02c04-fabe-49df-a858-1abaead7f01f")
+	)
+	(wire
+		(pts
+			(xy 157.48 116.84) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3e1d9cd0-0b28-4fd0-9394-567a1550676b")
+	)
+	(wire
+		(pts
+			(xy 231.14 177.8) (xy 231.14 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed2922a-ced9-45bf-9c20-d46f29780548")
+	)
+	(wire
+		(pts
+			(xy 299.72 162.56) (xy 294.64 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3f3ef136-5e60-4800-b92f-f7b1bf5f2119")
+	)
+	(wire
+		(pts
+			(xy 213.36 109.22) (xy 210.82 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "406598a6-8ec4-4e0f-be4e-f8ae9774d743")
+	)
+	(wire
+		(pts
+			(xy 213.36 182.88) (xy 213.36 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "413d1e77-b94a-43f4-83dc-39daa6a0803b")
+	)
+	(wire
+		(pts
+			(xy 240.03 68.58) (xy 247.65 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "41baf06e-fc7b-491a-8c22-99bb11724fc1")
+	)
+	(wire
+		(pts
+			(xy 212.09 57.15) (xy 214.63 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "47102bf7-9afb-44ce-8a91-8134e5fe2275")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "483d98b2-3379-4bdd-b20e-3b7918ec8c25")
+	)
+	(wire
+		(pts
+			(xy 157.48 228.6) (xy 157.48 231.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4cf62fd5-b804-4460-a722-d6a9b4120064")
+	)
+	(wire
+		(pts
+			(xy 311.15 40.64) (xy 311.15 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4e1f81cb-8e15-47d8-87b2-1d4bb0229756")
+	)
+	(wire
+		(pts
+			(xy 213.36 114.3) (xy 213.36 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4e9c6eb0-691c-4b7e-89d1-2a63311d8646")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 148.59 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "51e11d69-c334-4e7f-87e0-d2ea3ff1ef8b")
+	)
+	(wire
+		(pts
+			(xy 215.9 144.78) (xy 213.36 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52323ce0-edee-416a-87d6-099e4b0db749")
+	)
+	(wire
+		(pts
+			(xy 293.37 30.48) (xy 303.53 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52edc2d8-5b77-4e9f-9f4b-c66f3e7a5309")
+	)
+	(wire
+		(pts
+			(xy 294.64 172.72) (xy 294.64 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53ac15ba-8b01-480d-acd9-faef34a959cf")
+	)
+	(wire
+		(pts
+			(xy 139.7 205.74) (xy 139.7 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "552e7549-b272-4fe0-81cb-280c34937c3a")
+	)
+	(wire
+		(pts
+			(xy 219.71 33.02) (xy 242.57 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5596c1c8-d9ca-443e-b4a3-12298da03429")
+	)
+	(wire
+		(pts
+			(xy 153.67 48.26) (xy 153.67 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "56ab0bca-35a1-469e-afc7-71fd7f7be665")
+	)
+	(wire
+		(pts
+			(xy 299.72 193.04) (xy 294.64 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "593d5d0a-a84e-4369-9ffb-45583dd50e7d")
+	)
+	(wire
+		(pts
+			(xy 231.14 124.46) (xy 233.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5986a6e0-ddd0-4ece-af63-d5ca665ea815")
+	)
+	(wire
+		(pts
+			(xy 299.72 180.34) (xy 289.56 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5abf473f-9a90-4e10-a5e7-4b684b7310ca")
+	)
+	(wire
+		(pts
+			(xy 139.7 218.44) (xy 129.54 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5cfc92a8-80ed-4a86-b570-da579467cb7a")
+	)
+	(wire
+		(pts
+			(xy 213.36 144.78) (xy 210.82 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f42d904-36da-4f77-8b60-5aa24f08b7ae")
+	)
+	(wire
+		(pts
+			(xy 227.33 81.28) (xy 227.33 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "611dfbf9-09f1-4dd2-9c35-a72cdca7976f")
+	)
+	(wire
+		(pts
+			(xy 231.14 160.02) (xy 233.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651a5eed-3a8d-4884-8648-6a1a064c17b7")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 153.67 40.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67e3fa23-e402-4c9f-8109-80383c1ead79")
+	)
+	(wire
+		(pts
+			(xy 147.32 114.3) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "689d9393-124a-4736-ad97-68eae0bce8c3")
+	)
+	(wire
+		(pts
+			(xy 129.54 223.52) (xy 132.08 223.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "69f1b2f7-6071-423b-8ed9-bdc2f033318c")
+	)
+	(wire
+		(pts
+			(xy 147.32 215.9) (xy 152.4 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ab65cea-74ae-4864-9636-1483405fdd85")
+	)
+	(wire
+		(pts
+			(xy 212.09 66.04) (xy 212.09 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ac8a1bd-ce0d-48ec-b743-95c9fc37932a")
+	)
+	(wire
+		(pts
+			(xy 303.53 30.48) (xy 326.39 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ba4ff6f-d9f2-4913-babb-f7124ea253cb")
+	)
+	(wire
+		(pts
+			(xy 224.79 48.26) (xy 224.79 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ce60923-0b80-4223-bce0-6a907a0b875e")
+	)
+	(wire
+		(pts
+			(xy 224.79 66.04) (xy 227.33 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e28fe27-494c-4bb6-87ef-25047f92007b")
+	)
+	(wire
+		(pts
+			(xy 148.59 35.56) (xy 161.29 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ed1788d-31cf-410e-b219-67a9a8ec2da2")
+	)
+	(wire
+		(pts
+			(xy 243.84 109.22) (xy 246.38 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6f74dc06-a443-4ed4-97a4-b402e3693055")
+	)
+	(wire
+		(pts
+			(xy 189.23 66.04) (xy 212.09 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "70975874-0050-4d34-a922-671777d37a97")
+	)
+	(wire
+		(pts
+			(xy 226.06 109.22) (xy 229.87 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "738f238c-9bd6-484a-a0df-a333514baa69")
+	)
+	(wire
+		(pts
+			(xy 212.09 45.72) (xy 227.33 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "765a0032-f753-43db-981b-fa1da4263fda")
+	)
+	(wire
+		(pts
+			(xy 213.36 160.02) (xy 231.14 160.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76800111-7e41-47af-845e-c837fbd92143")
+	)
+	(wire
+		(pts
+			(xy 240.03 60.96) (xy 247.65 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a6731b6-27c3-448d-8a64-8889729e3e66")
+	)
+	(wire
+		(pts
+			(xy 212.09 78.74) (xy 212.09 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b0651d5-2b97-4092-8d23-b21da38495b5")
+	)
+	(wire
+		(pts
+			(xy 196.85 60.96) (xy 196.85 56.134)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7c4c2dab-5a70-49ea-9116-a16d2a8e0e7d")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7fdc765c-74bb-420c-9216-3b3841de4226")
+	)
+	(wire
+		(pts
+			(xy 299.72 172.72) (xy 294.64 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "80bb0147-829e-453c-ae8e-a8b98c89a796")
+	)
+	(wire
+		(pts
+			(xy 214.63 48.26) (xy 214.63 57.15)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81100256-219a-4046-81a8-d212314e0e53")
+	)
+	(wire
+		(pts
+			(xy 294.64 147.32) (xy 294.64 162.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "838a619e-9817-478b-a2c0-dee4f977d1c5")
+	)
+	(wire
+		(pts
+			(xy 157.48 180.34) (xy 165.1 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "84e49999-b4d4-4cad-a034-c59c481616ad")
+	)
+	(wire
+		(pts
+			(xy 207.01 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "85902db5-272d-4dc2-a591-4563678c7612")
+	)
+	(wire
+		(pts
+			(xy 231.14 144.78) (xy 229.87 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86413ab0-d071-48b0-9f98-2e53e4eec1fc")
+	)
+	(wire
+		(pts
+			(xy 294.64 167.64) (xy 294.64 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "880f2ef7-45ed-4ec8-a80c-0e038d2b8353")
+	)
+	(wire
+		(pts
+			(xy 294.64 190.5) (xy 294.64 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a970429-a24f-4dc7-bf07-a6e573d8a4db")
+	)
+	(wire
+		(pts
+			(xy 299.72 142.24) (xy 297.18 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8b1d47cb-b1ff-481d-bc1a-c8fc524410c9")
+	)
+	(wire
+		(pts
+			(xy 194.31 33.02) (xy 209.55 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8beb3c0b-82af-47d2-ae1d-6f6bc58ebc60")
+	)
+	(wire
+		(pts
+			(xy 213.36 160.02) (xy 213.36 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8dff6e73-09d2-4dc3-9cee-a2e545c90984")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 231.14 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8f886a59-4d9a-4f55-988e-60a0748cdcac")
+	)
+	(wire
+		(pts
+			(xy 162.56 114.3) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9171cb76-b447-41d3-9c78-8ee456b1540c")
+	)
+	(wire
+		(pts
+			(xy 227.33 63.5) (xy 240.03 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "922bb5a6-3ca9-4e41-8731-510383d8d6c8")
+	)
+	(wire
+		(pts
+			(xy 132.08 231.14) (xy 157.48 231.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "931520d3-0589-44a3-baac-d102a862c332")
+	)
+	(wire
+		(pts
+			(xy 139.7 154.94) (xy 139.7 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "954e11e1-bab3-486f-8898-afb1fc226372")
+	)
+	(wire
+		(pts
+			(xy 157.48 218.44) (xy 175.26 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "956b5889-bd0b-471a-89f9-017c690b198c")
+	)
+	(wire
+		(pts
+			(xy 257.81 60.96) (xy 267.97 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "97892c9c-5029-4e8c-8777-6f7e2cf3a1de")
+	)
+	(wire
+		(pts
+			(xy 157.48 167.64) (xy 175.26 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "980342e4-7456-4708-9427-bbcb4205b23e")
+	)
+	(wire
+		(pts
+			(xy 299.72 170.18) (xy 294.64 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "98455a71-3f24-44f8-bac1-858e5e4d62c2")
+	)
+	(wire
+		(pts
+			(xy 149.86 218.44) (xy 157.48 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9b5f72bb-6a31-43cb-9309-3f8670e21859")
+	)
+	(wire
+		(pts
+			(xy 162.56 165.1) (xy 165.1 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9d465e40-afc0-4a3f-a973-bd1798f22509")
+	)
+	(wire
+		(pts
+			(xy 240.03 66.04) (xy 240.03 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9dfb74bc-24d5-44e8-bf66-e52b4964e9e6")
+	)
+	(wire
+		(pts
+			(xy 135.89 35.56) (xy 148.59 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9e14eab6-f6d1-4f53-ad4b-2a84b2d68c33")
+	)
+	(wire
+		(pts
+			(xy 147.32 154.94) (xy 147.32 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9e9e4a50-ea4f-4c3d-82c0-2731a6f5d83b")
+	)
+	(wire
+		(pts
+			(xy 212.09 35.56) (xy 212.09 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f197324-d118-4277-92b4-dc08c667ba8b")
+	)
+	(wire
+		(pts
+			(xy 294.64 142.24) (xy 294.64 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f53f8c6-6590-45f9-8317-985e79fb85e9")
+	)
+	(wire
+		(pts
+			(xy 297.18 127) (xy 299.72 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a0a8d5f5-865d-42b5-824d-699cd212aa95")
+	)
+	(wire
+		(pts
+			(xy 213.36 177.8) (xy 210.82 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a1fabcc7-39e1-4537-9b7c-1529f31c5c4f")
+	)
+	(wire
+		(pts
+			(xy 229.87 109.22) (xy 233.68 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a4d818f1-cd45-4a1f-bd17-d90db0890ab1")
+	)
+	(wire
+		(pts
+			(xy 212.09 81.28) (xy 227.33 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a62417e2-b0c7-4e95-bf84-899ddfac00d4")
+	)
+	(wire
+		(pts
+			(xy 129.54 215.9) (xy 147.32 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a944bea1-260c-4e21-9f0f-3ed7e35d45e6")
+	)
+	(wire
+		(pts
+			(xy 215.9 109.22) (xy 213.36 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac21c3dc-e02a-4b09-809c-9029cfbc6859")
+	)
+	(wire
+		(pts
+			(xy 212.09 30.48) (xy 207.01 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad834a8d-9ce8-4887-8a0a-6808e3257daf")
+	)
+	(wire
+		(pts
+			(xy 129.54 172.72) (xy 132.08 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "adea02ff-0b9c-4a68-99a1-ea4260f3863d")
+	)
+	(wire
+		(pts
+			(xy 212.09 48.26) (xy 212.09 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae46a8a8-ca2d-43a2-8691-b404647b575e")
+	)
+	(wire
+		(pts
+			(xy 165.1 231.14) (xy 165.1 228.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b0e6f511-e5a9-4819-b1dc-e208357663a3")
+	)
+	(wire
+		(pts
+			(xy 233.68 154.94) (xy 231.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23d8199-b939-4a38-a546-2552f0dcd12e")
+	)
+	(wire
+		(pts
+			(xy 157.48 116.84) (xy 175.26 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc11f656-87a7-4e4f-905a-4a8c3d7ec83f")
+	)
+	(wire
+		(pts
+			(xy 165.1 215.9) (xy 165.1 220.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c04b4a6d-e73d-43ba-9261-a694c0ba09d8")
+	)
+	(wire
+		(pts
+			(xy 246.38 177.8) (xy 246.38 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c11775f7-7d1f-4fc2-92c7-0d49ddbcc7fc")
+	)
+	(wire
+		(pts
+			(xy 299.72 165.1) (xy 294.64 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c21e4c58-9a20-4692-abdc-8d0406ba41b8")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 157.48 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c2ec4bd5-44db-43d8-85c6-871b92c7e065")
+	)
+	(wire
+		(pts
+			(xy 157.48 129.54) (xy 165.1 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c46fa255-5e88-4324-8d25-5ff33519c77a")
+	)
+	(wire
+		(pts
+			(xy 148.59 35.56) (xy 148.59 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4c05438-50ab-4416-97b8-fa3418041383")
+	)
+	(wire
+		(pts
+			(xy 299.72 167.64) (xy 294.64 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c50bd861-fbda-4d75-a88a-8d6b2ee8c097")
+	)
+	(wire
+		(pts
+			(xy 299.72 175.26) (xy 294.64 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c7e7206b-cc33-4520-a098-6bdbd02301c6")
+	)
+	(wire
+		(pts
+			(xy 209.55 38.1) (xy 219.71 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c87616c9-7153-40f2-a4db-db8f75cf130c")
+	)
+	(wire
+		(pts
+			(xy 165.1 180.34) (xy 165.1 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ca99c21d-d294-4064-84ae-4301602ee251")
+	)
+	(wire
+		(pts
+			(xy 214.63 63.5) (xy 189.23 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cab6ecab-1ff9-4529-9783-a512b3b022f4")
+	)
+	(wire
+		(pts
+			(xy 149.86 116.84) (xy 157.48 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cd7607d5-75f2-4c80-8c85-d8057ad4d2c6")
+	)
+	(wire
+		(pts
+			(xy 219.71 30.48) (xy 219.71 33.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cdf91ed1-8a9f-4cc2-99dc-b85a312c08da")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 167.64 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0f8447e-c7a6-4615-b06c-13f0b6f02b3e")
+	)
+	(wire
+		(pts
+			(xy 189.23 60.96) (xy 196.85 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d16ad726-8ad8-4c44-b9d6-22c67d74933f")
+	)
+	(wire
+		(pts
+			(xy 217.17 48.26) (xy 224.79 48.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d210f458-3f7b-4192-a201-cf3a3b13709c")
+	)
+	(wire
+		(pts
+			(xy 294.64 170.18) (xy 294.64 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d218a4f9-a189-4f09-abe9-9574b19cb660")
+	)
+	(wire
+		(pts
+			(xy 165.1 215.9) (xy 167.64 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d3b201f0-6dc2-42e9-a86b-1a260de3d4b8")
+	)
+	(wire
+		(pts
+			(xy 165.1 165.1) (xy 165.1 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d3d3e9a5-64f7-4b02-b5f2-48ff3b186090")
+	)
+	(wire
+		(pts
+			(xy 147.32 165.1) (xy 152.4 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d3dc0498-b71e-4346-b5bd-6aae351a0426")
+	)
+	(wire
+		(pts
+			(xy 294.64 175.26) (xy 294.64 190.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d786fcdf-e7ea-4164-9dcf-dc49af162f06")
+	)
+	(wire
+		(pts
+			(xy 222.25 78.74) (xy 222.25 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db18098a-767e-45af-94de-154c533ff3e4")
+	)
+	(wire
+		(pts
+			(xy 165.1 165.1) (xy 167.64 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ddac77b9-7f15-4fb2-bc60-4328c362ed27")
+	)
+	(wire
+		(pts
+			(xy 157.48 177.8) (xy 157.48 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de105ad5-6d13-4372-a626-c6ed87a98234")
+	)
+	(wire
+		(pts
+			(xy 231.14 177.8) (xy 233.68 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df53beba-7f6f-4d5d-b329-f67128dac292")
+	)
+	(wire
+		(pts
+			(xy 153.67 38.1) (xy 161.29 38.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e03cf69f-2ac9-42eb-a2cb-611614f8eb0c")
+	)
+	(wire
+		(pts
+			(xy 165.1 129.54) (xy 165.1 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e1b7f59a-bfd4-43d7-8a3e-48802fdfc7e2")
+	)
+	(wire
+		(pts
+			(xy 294.64 132.08) (xy 294.64 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e2eaa75a-1adb-4978-840f-6ea5847ae024")
+	)
+	(wire
+		(pts
+			(xy 219.71 38.1) (xy 219.71 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e2f268d2-c484-48bb-9e0b-942222f2cdfd")
+	)
+	(wire
+		(pts
+			(xy 132.08 172.72) (xy 132.08 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3523969-fb70-46aa-87b4-93238bc1cdb8")
+	)
+	(wire
+		(pts
+			(xy 233.68 119.38) (xy 229.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7746fbd-eec5-47f8-8997-6553d05506ff")
+	)
+	(wire
+		(pts
+			(xy 132.08 121.92) (xy 132.08 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e82e6666-6e82-4f4f-b06b-87e0dab32077")
+	)
+	(wire
+		(pts
+			(xy 139.7 116.84) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e9d53dac-189a-41a3-8f50-53febed58195")
+	)
+	(wire
+		(pts
+			(xy 299.72 157.48) (xy 289.56 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea6bec96-60af-4da0-82ac-3b236821cdee")
+	)
+	(wire
+		(pts
+			(xy 227.33 45.72) (xy 227.33 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb27391a-563e-4136-b1a9-092396189857")
+	)
+	(wire
+		(pts
+			(xy 299.72 132.08) (xy 294.64 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ec05fcee-b179-41df-8e60-509b92a2c470")
+	)
+	(wire
+		(pts
+			(xy 129.54 121.92) (xy 132.08 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ed58e12a-f89f-438c-8204-3eb14f8c7b8f")
+	)
+	(wire
+		(pts
+			(xy 213.36 193.04) (xy 231.14 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ee6b0687-d991-4ddd-a925-fe0e8c9ffa9e")
+	)
+	(wire
+		(pts
+			(xy 194.31 35.56) (xy 212.09 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eeb00d68-4ae0-468f-b163-575990fd6325")
+	)
+	(wire
+		(pts
+			(xy 243.84 177.8) (xy 246.38 177.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f033463f-fffe-4fca-abbf-3b53d4140731")
+	)
+	(wire
+		(pts
+			(xy 162.56 215.9) (xy 165.1 215.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f11e5738-fd24-4937-b844-cd2473d92338")
+	)
+	(wire
+		(pts
+			(xy 297.18 142.24) (xy 294.64 142.24)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f403a1ae-9ca2-4192-96ff-dac4ad7f2d0d")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 213.36 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f7a9f44c-22fa-4176-bf77-41580ad54acb")
+	)
+	(wire
+		(pts
+			(xy 194.31 30.48) (xy 196.85 30.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f88c741d-be10-4b47-b70f-3bce1256a61d")
+	)
+	(wire
+		(pts
+			(xy 294.64 165.1) (xy 294.64 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fbdd42e2-2831-47f4-b038-5b9085670ece")
+	)
+	(wire
+		(pts
+			(xy 147.32 215.9) (xy 147.32 205.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd09fade-1c16-4477-ac45-f858e3986f5a")
+	)
+	(wire
+		(pts
+			(xy 161.29 30.48) (xy 161.29 25.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fdb33943-b3ac-4f4d-8565-8ef6f2b906c6")
+	)
+	(wire
+		(pts
+			(xy 299.72 147.32) (xy 294.64 147.32)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff443391-3df9-4f36-b31f-5763539e0b4c")
+	)
+	(text "TRS MIDI OUT"
+		(exclude_from_sim no)
+		(at 176.53 81.28 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6098156-4bfe-49af-a54a-26883d1c06eb")
+	)
+	(text "OLED"
+		(exclude_from_sim no)
+		(at 330.708 160.02 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "b7f3385d-9883-495c-b8f0-8ca776781f43")
+	)
+	(text "MIDI LEDS"
+		(exclude_from_sim no)
+		(at 300.99 24.384 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "deb093ec-c27f-4a63-98b3-763c959dac57")
+	)
+	(text "TRS MIDI IN"
+		(exclude_from_sim no)
+		(at 196.85 20.32 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe21bd04-6b69-4b9c-b9ed-07326dd8b7cf")
+	)
+	(label "TIP1_5"
+		(at 237.49 63.5 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "03b26ff7-5666-45e1-8b8b-1336b1e40305")
+	)
+	(label "RING1_4"
+		(at 237.49 66.04 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "04074751-3c7c-4f19-9abb-1b1ca55063de")
+	)
+	(global_label "MOSI"
+		(shape bidirectional)
+		(at 289.56 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "0b6c221b-3ef2-4ce5-a2bd-1d4219df9bc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.1193 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 293.37 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "3262bfe5-4677-4691-9027-b422eece779b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.4553 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 153.67 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "368846d7-b255-4d3c-87b5-4556b6c6fada")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.9405 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MIDI_RX"
+		(shape bidirectional)
+		(at 311.15 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "43976a0e-d711-4165-864c-4592ab16f3bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.317 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K2"
+		(shape bidirectional)
+		(at 210.82 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "45a2dfa1-1acd-460d-85c8-e83c01932231")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.4537 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 148.59 17.78 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "5e010483-9622-4b1c-bc17-970aa7d452d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 8.8653 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 267.97 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "74849608-57a6-47a4-9ee8-de1cc7d7fe95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.8847 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K1"
+		(shape bidirectional)
+		(at 210.82 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "77da31c8-2c84-46d5-9270-8a41393385d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.4537 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CE0"
+		(shape bidirectional)
+		(at 289.56 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "8939c705-135b-47e5-a31d-63a1a923cebf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.0676 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B3"
+		(shape bidirectional)
+		(at 167.64 215.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "93f6c7de-3e61-422c-8044-de8297487a34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.0063 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "O_DC"
+		(shape bidirectional)
+		(at 289.56 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "9871e35f-ad74-4bc7-b37a-11048388b622")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.8822 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape bidirectional)
+		(at 148.59 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "9b24dba5-af7d-40db-911f-aa4073aa55da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.8606 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B1"
+		(shape bidirectional)
+		(at 167.64 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "a74654a4-4c4b-4c8b-87eb-424496c2e790")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.0063 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A3"
+		(shape bidirectional)
+		(at 175.26 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "a8243eee-abfa-4e3c-af48-57da05c6150d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.4485 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 161.29 25.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "bd382bc0-1922-4c2f-9270-c1ef853a05e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 17.6705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B2"
+		(shape bidirectional)
+		(at 167.64 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "c77e6edd-6f39-4ed5-a321-20bb4e34f772")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.0063 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1"
+		(shape bidirectional)
+		(at 175.26 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "ca917288-a057-4413-bba0-d967c83add19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.4485 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "O_RESET"
+		(shape bidirectional)
+		(at 289.56 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "d7bf9981-7f6d-41e5-8c37-304b5796d165")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.741 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MIDI_TX"
+		(shape bidirectional)
+		(at 334.01 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "d8bb80ae-1ca7-4f1a-8851-1aaff2647fda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.8807 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "K3"
+		(shape bidirectional)
+		(at 210.82 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "dab9793d-4db5-4485-a137-471912fece4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.4537 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape bidirectional)
+		(at 289.56 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "db0b0596-f050-4600-92ce-f0908479d289")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.9491 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MIDI_RX"
+		(shape bidirectional)
+		(at 135.89 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "dfa3b645-7815-4393-a654-d27367a4f150")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.723 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MIDI_TX"
+		(shape bidirectional)
+		(at 267.97 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "e20f23af-b595-4720-b544-c97abdee2346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.8407 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2"
+		(shape bidirectional)
+		(at 175.26 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "f25ea207-9169-44b4-b68c-27bf4254d22f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.4485 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 238.76 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "023b418d-121e-4e74-a7c4-af4a52b164ba")
+		(property "Reference" "R44"
+			(at 242.57 110.7186 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 242.57 105.918 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 238.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecd658e7-48ac-4d63-83c5-22c75ae78c9b")
+		)
+		(pin "2"
+			(uuid "a704f21a-b37d-4eb3-94e3-5110483c9c7a")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 165.1 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02f54fd4-2e82-4a7c-a25c-6c47ab411cd5")
+		(property "Reference" "C42"
+			(at 166.116 222.885 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 166.116 227.711 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 165.1 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9623cd59-0368-4e70-9795-4747f70b85bf")
+		)
+		(pin "2"
+			(uuid "d3af35a8-bbcc-4fdf-b188-6f188abe1fe7")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:GND")
+		(at 213.36 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04e249b0-a65a-4c3d-ad93-a961ac5d60aa")
+		(property "Reference" "#GND040"
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 198.12 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdd4f2d2-8ce6-4049-902b-b85cdb0160d1")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#GND040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:GND")
+		(at 213.36 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "076d3959-2c98-4bcd-b3d0-14afcf360331")
+		(property "Reference" "#GND036"
+			(at 213.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 129.54 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a11fc581-fb2d-46fa-8765-70b0b3066a22")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#GND036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 294.64 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08f11684-4888-4ccb-81c6-624d338b4eb6")
+		(property "Reference" "#+3V08"
+			(at 294.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 292.1 127 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7cb3d89-0e7c-49b9-b3b6-a485c8a85597")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 147.32 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "108d0cb7-942c-4cb3-883f-e5cf15c1bf1e")
+		(property "Reference" "#+3V013"
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 147.32 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea133f78-50ef-4655-9d88-bcf173d1074f")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:TABL_L")
+		(at 17.78 284.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "111e17f3-66a5-4674-9a20-72231201e03b")
+		(property "Reference" "#FRAME2"
+			(at 17.78 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TABL_L"
+			(at 17.78 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#FRAME2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:CAP_CERAMIC0603")
+		(at 153.67 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14056006-4e7b-4185-94df-303b842136e9")
+		(property "Reference" "C19"
+			(at 151.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "685874e6-251d-40cf-b2c1-e40cf28563cc")
+		)
+		(pin "2"
+			(uuid "dea53e21-9e8f-4c6b-b6d6-5d540fb18cfb")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:GND")
+		(at 157.48 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16f18043-9d71-4878-a4f9-49133a287a1c")
+		(property "Reference" "#GND034"
+			(at 157.48 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 236.22 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dc7b9e8-07dd-4b70-a039-3b096cdb9d5d")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#GND034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 139.7 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "180b2d07-3038-447b-8b5b-b138108321ef")
+		(property "Reference" "#+3V07"
+			(at 139.7 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 198.12 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b21ce09-2ff8-41a0-9b13-5396b38ea03e")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 238.76 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18617a6e-91b0-4045-af86-e4333cff3d20")
+		(property "Reference" "R48"
+			(at 242.57 179.2986 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 242.57 174.498 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 238.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75500e72-0c63-4833-93b5-874bbf4fa3d7")
+		)
+		(pin "2"
+			(uuid "164549ac-6f5b-4d90-95c9-14e7b12b77ea")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:EG1390B")
+		(at 212.09 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1abf04a0-7278-4ced-914f-df737468fec0")
+		(property "Reference" "S1"
+			(at 207.772 72.644 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EG1390B"
+			(at 208.026 61.468 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ShieldXL:SOP250P600X400-6N"
+			(at 212.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "438e5ca1-8f15-49e5-a5f4-76d52b88a43d")
+		)
+		(pin "2"
+			(uuid "4ba77165-b7aa-43d4-ad23-b8d4c7ecd729")
+		)
+		(pin "3"
+			(uuid "82a4d305-33c4-4616-9b43-b874a2f35cc4")
+		)
+		(pin "4"
+			(uuid "09709df7-22f4-4875-8a0a-e1b55a4be54b")
+		)
+		(pin "5"
+			(uuid "4de784b4-e183-497e-acea-a7626ed8221f")
+		)
+		(pin "6"
+			(uuid "f3ba51cf-ff44-44c2-bf38-f0014ea69f89")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 220.98 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "235b4278-f638-4796-9936-3396190ef3c7")
+		(property "Reference" "R49"
+			(at 224.79 179.2986 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 224.79 174.498 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 220.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b48b080-87e7-452d-bc10-4089fd4c9fd7")
+		)
+		(pin "2"
+			(uuid "b14b93d6-02ba-425d-af8a-c3a40df1ba81")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:GND")
+		(at 213.36 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "235d674d-c9c3-4221-a59d-c6ad24b7f4c3")
+		(property "Reference" "#GND038"
+			(at 213.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 165.1 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc318a52-1117-49df-9e32-a9deb5a1fd6f")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#GND038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 238.76 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2623ca70-6da1-4584-8a19-d8c88c2432cb")
+		(property "Reference" "R46"
+			(at 242.57 146.2786 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 242.57 141.478 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 238.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc2919da-9ab1-4e2e-bae3-87f3dc6b4be7")
+		)
+		(pin "2"
+			(uuid "83e37f3d-46a4-4b5f-b173-10dd638ae7fb")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_RESISTOR_0603")
+		(at 303.53 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e1b7f02-75f2-474d-89f7-948f33b17ad1")
+		(property "Reference" "R21"
+			(at 300.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 303.53 33.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 303.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b105a87-42b5-4fdd-8e21-c82dff668ab7")
+		)
+		(pin "2"
+			(uuid "e7e68f70-21b2-40c1-a845-ebc3ffe8d9dd")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:HCPL-0631-500E")
+		(at 194.31 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "310e6780-9e49-4275-82aa-707882c9c204")
+		(property "Reference" "U5"
+			(at 177.8 25.4 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HCPL-0631-500E"
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ShieldXL:SSOP-8_3.9x5.05mm_P1.27mm"
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abb83a05-b10f-4ab9-a1c6-072b965e64bb")
+		)
+		(pin "2"
+			(uuid "cfe3c8f7-ee9a-4ae4-ac79-132dd0902697")
+		)
+		(pin "3"
+			(uuid "d28ef68a-6008-4669-ac30-e5b23219ec78")
+		)
+		(pin "4"
+			(uuid "bebd54e3-31ea-4e02-aaad-8d568528eece")
+		)
+		(pin "5"
+			(uuid "df894c92-d220-40a3-a148-f20fb5241f0f")
+		)
+		(pin "6"
+			(uuid "200d83b0-83df-4dd8-8152-4cc21c7d92d2")
+		)
+		(pin "7"
+			(uuid "75afc471-ca39-4d47-bc6e-deef51d5b756")
+		)
+		(pin "8"
+			(uuid "2737a3d9-6017-456f-9da6-3701dd36aafd")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_RESISTOR_0603")
+		(at 252.73 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ca1d46-76c9-4ad0-b41e-5c6360c4b658")
+		(property "Reference" "R19"
+			(at 248.92 67.0814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 248.92 71.882 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 252.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5a088a8-fb44-408c-b79c-8bccab6cdfaf")
+		)
+		(pin "2"
+			(uuid "f126f0ff-af2c-4cc7-96aa-0e388954ed99")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_LED0603_NOOUTLINE")
+		(at 331.47 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3400fa0b-047c-4ac7-b281-2724e112b70c")
+		(property "Reference" "D7"
+			(at 330.2 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 330.2 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "ShieldXL:CHIPLED_0603_NOOUTLINE"
+			(at 331.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "62bff3c8-8b5b-4e59-9122-66997b2d76a5")
+		)
+		(pin "C"
+			(uuid "90f84dab-0e8b-4d18-bb74-daabbe141dc3")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 246.38 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ca5ef49-603a-4384-8eb1-68d2925713f7")
+		(property "Reference" "#+3V09"
+			(at 246.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 243.84 109.22 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03c2d983-cfb8-4d1d-95b2-8c5140130c9f")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 144.78 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bb33cfa-9a8a-42da-8163-5c0bacac85f7")
+		(property "Reference" "R34"
+			(at 140.97 166.1414 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 170.942 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb828c73-4a83-4a14-b3b8-a1031374b689")
+		)
+		(pin "2"
+			(uuid "9f55e829-76c9-4ccc-980d-47f3216937c4")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:TABL_L")
+		(at 317.5 284.48 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "592b0971-2baa-435e-af08-f6e336ad6363")
+		(property "Reference" "#FRAME2"
+			(at 317.5 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "TABL_L"
+			(at 317.5 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#FRAME2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:ENC")
+		(at 111.76 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "5c14addc-136f-4bdc-8fc9-3d3effc00c70")
+		(property "Reference" "E1"
+			(at 101.6 127 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "ENC"
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:PEC11RN"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "65c85f05-f4ad-495b-9f4d-e12f04da8124")
+		)
+		(pin "B"
+			(uuid "66fa668e-05a1-4646-8b48-4671e4fcda7d")
+		)
+		(pin "GND"
+			(uuid "6157cb63-5318-4dc3-a0a1-c6336f2efaff")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "E1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyLibrary:CHERRY-MX")
+		(at 243.84 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "62bd3af7-c95b-4519-bdd2-63983b4628f7")
+		(property "Reference" "SW3"
+			(at 240.03 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "PVA1"
+			(at 240.03 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:Choc_MX_combo"
+			(at 243.84 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SW1"
+			(uuid "5a04774b-215e-4063-a7c2-ae8d635cb4fd")
+		)
+		(pin "SW2"
+			(uuid "ef270c26-7a3e-47f1-abf5-f646353087da")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 157.48 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67697fc7-d294-431e-a734-97d977b5e0ad")
+		(property "Reference" "C35"
+			(at 158.496 121.285 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 158.496 126.111 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9794ed8e-e18e-478e-8f2c-fe23373ea716")
+		)
+		(pin "2"
+			(uuid "ce3696c3-86d9-4807-baed-e44f01ba2079")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:GND")
+		(at 157.48 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "725e2d9d-93c8-4292-92a1-b18dde431695")
+		(property "Reference" "#GND033"
+			(at 157.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 185.42 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9eb9d4d-9e2a-4bcc-a761-3bf3c5baa3a4")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#GND033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 213.36 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7826e087-72f7-4877-95fa-e8bbec4cd002")
+		(property "Reference" "C45"
+			(at 214.376 151.765 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 214.376 156.591 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe2d031-9972-45ac-8585-cb0708363a19")
+		)
+		(pin "2"
+			(uuid "09f52337-0723-4eef-8ca8-b78b9afa8b08")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 147.32 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7959ba87-2eb4-46a9-a38a-abe58903c6dd")
+		(property "Reference" "#+3V014"
+			(at 147.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 198.12 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c0747c-cd4a-4bcf-bdff-c919b225b819")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_LED0603_NOOUTLINE")
+		(at 308.61 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7aa4af7b-775f-49b2-8b44-a9bbec080a84")
+		(property "Reference" "D6"
+			(at 307.34 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 307.34 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "ShieldXL:CHIPLED_0603_NOOUTLINE"
+			(at 308.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "61d05321-88c3-4daa-8d19-4d44f81ef9b1")
+		)
+		(pin "C"
+			(uuid "b6d34857-78d5-4635-9806-1be5b0f09a5e")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:GND")
+		(at 294.64 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7eab5cc7-759d-4ad4-b749-e02e4cd35dc2")
+		(property "Reference" "#GND050"
+			(at 294.64 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 200.66 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 294.64 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2914155-7d8a-4aed-9428-3e3d5c860feb")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#GND050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyLibrary:CHERRY-MX")
+		(at 243.84 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7f84a021-fda1-4b7a-8381-f09834597d5d")
+		(property "Reference" "SW2"
+			(at 240.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "PVA1"
+			(at 240.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:Choc_MX_combo"
+			(at 243.84 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SW1"
+			(uuid "1c9884a2-1de6-44c0-afa0-fc22d8dc9f40")
+		)
+		(pin "SW2"
+			(uuid "5baf7bcd-f0a2-4485-bac8-d2a0e3dee55e")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 144.78 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82f32588-fdfc-4cd5-8bd6-a472357c300b")
+		(property "Reference" "R28"
+			(at 140.97 115.3414 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 120.142 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a65b561-33ab-49ba-95f5-c6190cded248")
+		)
+		(pin "2"
+			(uuid "777519b7-9cd8-4044-a8ca-1bb54b61f3e9")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 139.7 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83aa6607-99bc-4035-918c-024fdfe8640c")
+		(property "Reference" "#+3V05"
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 96.52 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15bcc6c6-9b47-4ef4-89e9-c357f016ba62")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 147.32 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "868cbf35-755a-444b-8931-9cebc95598c3")
+		(property "Reference" "R3"
+			(at 145.8214 153.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 150.622 153.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b08c4177-c2bb-4f9b-a9d4-b6d725cabc0e")
+		)
+		(pin "2"
+			(uuid "47f1f7d8-8f5b-482d-a90f-2b2a2f80fa38")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 147.32 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87695c0c-e487-4aec-b6c3-1c50e438863a")
+		(property "Reference" "R4"
+			(at 145.8214 204.47 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 150.622 204.47 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 147.32 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d1e9742-9a3d-4b2d-abe1-e1035c485f4d")
+		)
+		(pin "2"
+			(uuid "a033a6fa-e729-48a1-8656-a4804e23d5d5")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 157.48 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88aaa96f-3233-430c-8ff0-21f43bef2e55")
+		(property "Reference" "C41"
+			(at 158.496 222.885 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 158.496 227.711 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63d5486-c132-48fa-8ea2-86ff68154576")
+		)
+		(pin "2"
+			(uuid "85dfb700-ad71-4207-8f06-de3f5403ba50")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:OLED128X64")
+		(at 327.66 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89358abc-2f48-4607-a4de-4486bf7c32e1")
+		(property "Reference" "U$1"
+			(at 327.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FPC1M20P-B310"
+			(at 327.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ShieldXL:F-FPC1M20P-B310"
+			(at 327.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 327.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47f03166-6d4a-4123-a122-2911f6d2aff2")
+		)
+		(pin "10"
+			(uuid "9f6d5a37-0bba-440d-b749-aa726b580ce2")
+		)
+		(pin "11"
+			(uuid "6599f756-638d-4614-9b28-c25b6f427668")
+		)
+		(pin "12"
+			(uuid "b5f5cceb-2439-4173-8337-e6cb1a1d68ce")
+		)
+		(pin "13"
+			(uuid "cb6db4b0-a28d-4732-9448-6b60c2654864")
+		)
+		(pin "14"
+			(uuid "5ee6e334-8a67-4541-8313-9c5e14782440")
+		)
+		(pin "15"
+			(uuid "ac07abb5-c9f6-4cfc-8ee4-7f5c2c204695")
+		)
+		(pin "16"
+			(uuid "bc89ad10-e092-4cb1-9d8b-331b0c280435")
+		)
+		(pin "17"
+			(uuid "5c5fc8bf-2f2d-46e9-ac71-5ffc9e96f1d8")
+		)
+		(pin "18"
+			(uuid "d24dea96-b838-4ac1-b582-291d0e1334b9")
+		)
+		(pin "19"
+			(uuid "78d9e746-b264-4981-b9a2-6a365f8c624b")
+		)
+		(pin "2"
+			(uuid "d5ac1a35-2cf1-437f-be9b-e9196c7bfc47")
+		)
+		(pin "20"
+			(uuid "47fd8ab7-3ffc-44d9-abe9-1e34ed2b8f0e")
+		)
+		(pin "3"
+			(uuid "04786522-25d1-45f2-91bb-b7dc3097134f")
+		)
+		(pin "4"
+			(uuid "247bbf0f-3c21-4be8-b4db-4df8ea1baea9")
+		)
+		(pin "5"
+			(uuid "c0a6ef64-be42-496d-a1a0-46cab7af655f")
+		)
+		(pin "6"
+			(uuid "01134390-70fb-47e9-a4f3-0a7e95b09793")
+		)
+		(pin "7"
+			(uuid "7a197acb-bda5-4463-8ce1-5e6dc73b18de")
+		)
+		(pin "8"
+			(uuid "08a28100-9946-4f89-9c07-8c4f599ca986")
+		)
+		(pin "9"
+			(uuid "7353ccf0-3b8a-4c3f-9a40-4226b4924f26")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_RESISTOR_0603")
+		(at 201.93 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a44bd55-d1ff-4149-88ac-7d4a4f4d35b6")
+		(property "Reference" "R20"
+			(at 204.47 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 204.47 27.305 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3527c5f2-9a84-4458-a9f0-12827fefce9c")
+		)
+		(pin "2"
+			(uuid "adbd09e7-f9af-40e5-b7e5-8a7e0a541259")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 157.48 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b7cb425-835e-40b8-b74b-276ddcf55790")
+		(property "Reference" "R38"
+			(at 153.67 214.4014 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 219.202 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 157.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710cdf6a-ba12-4a31-97a8-b582e23f8f04")
+		)
+		(pin "2"
+			(uuid "de678e4e-369e-4786-a0b0-bb3727d7de05")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 139.7 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c622dd3-dca8-485a-8d5c-0a3e6a4f57c0")
+		(property "Reference" "R41"
+			(at 138.2014 204.47 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.002 204.47 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 139.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec82f723-e6f7-4ab1-885f-953dc7d5a4e5")
+		)
+		(pin "2"
+			(uuid "f35fd224-5403-47a9-9925-52acb68d35a2")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 165.1 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a10403cd-9107-4c72-80de-f9af79576301")
+		(property "Reference" "C39"
+			(at 166.116 172.085 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 166.116 176.911 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 165.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a297e381-5a3e-4ee6-9c3a-9a695555bf81")
+		)
+		(pin "2"
+			(uuid "3f19bb0d-f873-47d9-9b34-029593a36c46")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_RESISTOR_0603")
+		(at 252.73 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a237d959-4fdc-4f7c-a386-26ccb0ef3d14")
+		(property "Reference" "R16"
+			(at 248.92 59.4614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "47Ω"
+			(at 248.92 64.262 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 252.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c4fee04-edc7-4152-b255-5fe0cc3202dd")
+		)
+		(pin "2"
+			(uuid "a949a120-a72d-4c5d-ad5b-b2b36ee2e0a4")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 213.36 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2b85797-2933-4992-909f-74cd5ca881d3")
+		(property "Reference" "C46"
+			(at 214.376 184.785 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 214.376 189.611 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11de7abe-7b04-4def-9bc4-1bc2c64a32df")
+		)
+		(pin "2"
+			(uuid "91c248f9-984b-4594-b958-8552a65f0400")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 220.98 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2d10e85-0e93-4ec0-993d-bed9e664be3b")
+		(property "Reference" "R45"
+			(at 224.79 110.7186 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 224.79 105.918 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 220.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a942e3d-cd83-4fe4-bd4c-a3da9cb48074")
+		)
+		(pin "2"
+			(uuid "c656d27e-a0f9-4f07-86b7-2da842b46b93")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 157.48 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a556bbd7-fdf3-459c-b3a2-d9edbe18ef1b")
+		(property "Reference" "C38"
+			(at 158.496 172.085 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 158.496 176.911 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef8aa3d4-b34c-4aeb-81a6-65a8a84d2afd")
+		)
+		(pin "2"
+			(uuid "8c231df7-5019-47d3-a668-58cb2d71bb53")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:supply1_GND")
+		(at 196.85 53.594 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7b107ec-7173-45f2-bdbd-7a1a3372150d")
+		(property "Reference" "#GND3"
+			(at 196.85 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 51.054 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e993e2b7-d96a-4bfb-8a5a-43d2b0c03706")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "#GND3")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 147.32 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adfa48a7-2cc4-4fb8-9dca-b3f0da3071d7")
+		(property "Reference" "#+3V012"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 96.52 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78d80ef6-675b-4e2b-a221-64836e58c7fc")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 147.32 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b017ba8c-6c99-4288-9db8-1d04a2281969")
+		(property "Reference" "R2"
+			(at 145.8214 102.87 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 150.622 102.87 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9718d56-94bd-42a8-8e32-8f226a77fd45")
+		)
+		(pin "2"
+			(uuid "6ff1a899-5772-4cf3-9ffc-10efdc11b6d2")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_RESISTOR_0603")
+		(at 148.59 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0449c85-22d8-446e-b252-6d3f858e101f")
+		(property "Reference" "R15"
+			(at 146.558 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470Ω"
+			(at 151.765 30.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 148.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23bd5d99-ea46-4d13-b23e-2571902c2806")
+		)
+		(pin "2"
+			(uuid "d52164f7-7141-4d5a-9b88-e752e2daeb62")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 139.7 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2979a94-9eac-4d18-8d0d-611cc8f4f75c")
+		(property "Reference" "#+3V06"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 147.32 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20b6635a-2ccc-49c7-8408-6930917619a2")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 220.98 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5797b9d-c2eb-4207-9519-2955418bb5fb")
+		(property "Reference" "R47"
+			(at 224.79 146.2786 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 224.79 141.478 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac3c454c-f16b-4196-93f2-24a8fa6165bd")
+		)
+		(pin "2"
+			(uuid "9504f3ae-b33a-4d7b-a8b2-b649f0344f8c")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:PJ-320B")
+		(at 181.61 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb8cc51e-afe7-491c-ba38-b8e9c8e149e5")
+		(property "Reference" "J1"
+			(at 176.5095 57.7621 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PJ-320B"
+			(at 171.4293 71.1509 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:LUOYANG-DISHANG_PJ-320B"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0565605-e21a-454c-ae6f-37e20b7ca320")
+		)
+		(pin "3"
+			(uuid "f35d1058-5889-4692-9040-8e289b21d062")
+		)
+		(pin "4"
+			(uuid "6f06fa8a-2ef0-4a1a-b874-d8f6fa4f1cbf")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 246.38 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcdb8e01-8f46-4012-9216-777d63b6cd79")
+		(property "Reference" "#+3V011"
+			(at 246.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 243.84 177.8 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "deb3351a-7bab-4d2f-8f10-3467b650e642")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:GND")
+		(at 157.48 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bdd1ad9a-358b-4d11-9d83-b2c17d9c6053")
+		(property "Reference" "#GND032"
+			(at 157.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80a3205c-2be2-4e71-ade5-a97937fe5b2d")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#GND032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_RESISTOR_0603")
+		(at 201.93 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6fcd09c-6c03-4fce-8d10-99b30344c485")
+		(property "Reference" "R14"
+			(at 204.47 40.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220Ω"
+			(at 204.47 34.925 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "694d2bca-2e5e-4da2-9fdf-e0aa8b67c523")
+		)
+		(pin "2"
+			(uuid "e01912e6-1b69-4e96-b06a-ac9c70ecd2f7")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:ENC")
+		(at 111.76 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "c9239587-f025-4c30-a062-e3943913bb1d")
+		(property "Reference" "E2"
+			(at 101.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "ENC"
+			(at 114.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:PEC11RN"
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "48d515df-06ef-41cc-81cc-3993f6200b1b")
+		)
+		(pin "B"
+			(uuid "243a238f-cb6c-4056-8b82-6b2b983c4927")
+		)
+		(pin "GND"
+			(uuid "77121990-f9ca-49c0-a1bf-a6fbb787e74e")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "E2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 165.1 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1907264-20a0-4424-869c-b704ba386ec9")
+		(property "Reference" "C36"
+			(at 166.116 121.285 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 166.116 126.111 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31a2c9d5-530f-452b-9a35-342ec9364e12")
+		)
+		(pin "2"
+			(uuid "07465537-38d4-442b-a1e2-58e7d0073e83")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 139.7 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d32f19e5-b8ec-42c3-9402-65c8f16dacde")
+		(property "Reference" "R29"
+			(at 138.2014 102.87 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.002 102.87 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80bf9306-f358-4624-9035-b20a81634603")
+		)
+		(pin "2"
+			(uuid "25e813f0-22c7-491a-b881-b7a17322759a")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 139.7 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4a18bf8-b1dd-4343-9be1-bcbe08755809")
+		(property "Reference" "R35"
+			(at 138.2014 153.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.002 153.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45dfd481-fb9a-4e19-8066-7612e00defe8")
+		)
+		(pin "2"
+			(uuid "0c60a04c-8541-4cde-aba4-5ddb6c9de3de")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 157.48 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9d8b1ff-ae52-40f7-88b4-0a19a5229060")
+		(property "Reference" "R32"
+			(at 153.67 163.6014 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 168.402 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9097cd64-145f-483b-8b52-3970c2cc244f")
+		)
+		(pin "2"
+			(uuid "c75f8181-56ce-4e07-930e-4526c8ffe6ee")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 144.78 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de6ac4db-646e-422d-aff6-71f12a388e84")
+		(property "Reference" "R40"
+			(at 140.97 216.9414 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 221.742 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 144.78 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93a61810-e2aa-47ff-9790-c662648b2fd9")
+		)
+		(pin "2"
+			(uuid "ca6d225c-ddba-4220-b17d-2dbe7e49ae64")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:C-USC0603")
+		(at 213.36 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e14e968d-4308-4cab-90d9-575e5c72e1cf")
+		(property "Reference" "C44"
+			(at 214.376 116.205 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n"
+			(at 214.376 121.031 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:C0603"
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0087b478-649f-4d02-b8aa-0a283640d326")
+		)
+		(pin "2"
+			(uuid "f0f6b197-2b81-4c4a-b519-a635f67937ec")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:R-US_R0603")
+		(at 157.48 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e901850e-a5c1-4f31-b89d-cd473a8b7c56")
+		(property "Reference" "R26"
+			(at 153.67 112.8014 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 153.67 117.602 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "803c3911-de62-4132-a12b-d2b15b51b15c")
+		)
+		(pin "2"
+			(uuid "415d7213-b0d0-43d2-8394-c461cbc6c4de")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:ENC")
+		(at 111.76 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ead38abc-ba43-43ce-805a-602f59610296")
+		(property "Reference" "E3"
+			(at 101.6 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "ENC"
+			(at 114.3 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:PEC11RN"
+			(at 111.76 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "47bef52b-f7b9-4af2-909f-cbfc357752e7")
+		)
+		(pin "B"
+			(uuid "8bc1f676-6a0a-481b-9cab-33b6a01c1ccb")
+		)
+		(pin "GND"
+			(uuid "091bf70e-8de6-45dc-8133-a1bfdeb2a2fb")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "E3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyLibrary:CHERRY-MX")
+		(at 243.84 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "eae72a5e-32fe-4d9b-9bc0-fa2937a29abb")
+		(property "Reference" "SW1"
+			(at 240.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "PVA1"
+			(at 240.03 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:Choc_MX_combo"
+			(at 243.84 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "SW1"
+			(uuid "d2950d47-453e-439f-8073-f90437857559")
+		)
+		(pin "SW2"
+			(uuid "563b3dfe-71af-4ddb-b43a-b10282657539")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "norns-shield-210330-eagle-import:+3V3")
+		(at 246.38 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb4d9e9b-aaad-407d-b241-dd1ff46f5d8c")
+		(property "Reference" "#+3V010"
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 243.84 144.78 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60c7a6d9-0c32-40a5-89ca-657c4314f8f1")
+		)
+		(instances
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "#+3V010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:PJ-320B")
+		(at 250.19 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f74aa2eb-c69c-4c9f-a16a-f3a24e1126e1")
+		(property "Reference" "J2"
+			(at 255.2904 27.2821 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PJ-320B"
+			(at 260.3706 40.671 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ShieldXL:LUOYANG-DISHANG_PJ-320B"
+			(at 250.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f025b0d6-ee5c-4238-9651-46e4fc453307")
+		)
+		(pin "3"
+			(uuid "8a307bef-3d8e-4acf-a548-4f389c692e78")
+		)
+		(pin "4"
+			(uuid "4556803e-ae94-4bab-b950-3e3099fa7a94")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hachi-Ni_v26-eagle-import:MICROBUILDER_RESISTOR_0603")
+		(at 326.39 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fef9b658-4e93-422c-a77a-3a6d78b336c3")
+		(property "Reference" "R22"
+			(at 323.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15Ω"
+			(at 326.39 33.02 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "ShieldXL:R0603"
+			(at 326.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a8f69a1-4d80-46e4-80a3-ec3146ca7d47")
+		)
+		(pin "2"
+			(uuid "17eaa84e-0e3c-4116-83c1-182b092c1c55")
+		)
+		(instances
+			(project "Hachi-Ni_v26"
+				(path "/62ca0448-8214-4fa6-89ca-4a62b295d057/dcf1a22e-2574-4c83-a4dc-208deeeb6342"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+			(project "ShieldXL-M"
+				(path "/b86e8947-58dc-49c6-bb5d-ce6d33c2e465/53fda09e-7af9-4285-ac8e-05ed312a27ba"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

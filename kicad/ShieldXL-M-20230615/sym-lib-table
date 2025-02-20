@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "norns-shield-210330-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/norns-shield-210330-eagle-import.kicad_sym")(options "")(descr ""))
+)

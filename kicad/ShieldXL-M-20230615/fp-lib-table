@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ShieldXL")(type "KiCad")(uri "$(KIPRJMOD)/ShieldXL.pretty")(options "")(descr ""))
+)
