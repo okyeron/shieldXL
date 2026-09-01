@@ -22,7 +22,7 @@ cd amidiminder
 #make
 mkdir -p ./build
 cd build
-wget https://github.com/mzero/amidiminder/releases/download/0.70/amidiminder_0.70_armhf.deb
+wget https://forge.glyphic.com/mark/midiminder/releases/download/0.70/amidiminder_0.70_armhf.deb
 sudo dpkg -i amidiminder_0.70_armhf.deb
 
 
