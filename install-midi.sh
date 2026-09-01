@@ -17,8 +17,8 @@ sudo systemctl enable ttymidi0.service
 # sudo cp --remove-destination /home/we/shieldXL/install/boot/config.txt  /boot/config.txt
 sudo cp --remove-destination /home/we/shieldXL/install/99-com.rules  /etc/udev/rules.d/99-com.rules
 
-git clone https://github.com/mzero/amidiminder.git
-cd amidiminder
+git clone https://forge.glyphic.com/mark/midiminder
+cd midiminder
 #make
 mkdir -p ./build
 cd build
