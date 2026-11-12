@@ -22,7 +22,7 @@ cd midiminder
 #make
 mkdir -p ./build
 cd build
-wget https://forge.glyphic.com/mark/midiminder/releases/download/0.70/amidiminder_0.70_armhf.deb
+wget --header="Cookie: human=4" https://forge.glyphic.com/mark/midiminder/releases/download/0.70/amidiminder_0.70_armhf.deb
 sudo dpkg -i amidiminder_0.70_armhf.deb
 
 
